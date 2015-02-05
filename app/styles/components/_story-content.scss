@@ -1,0 +1,12 @@
+.prose {
+  line-height: 1.1em;
+
+  p.byline {
+    margin-bottom: 1em;
+  }
+
+}
+
+.share-row {
+  @extend %content-block;
+}

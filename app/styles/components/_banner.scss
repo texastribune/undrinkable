@@ -1,5 +1,5 @@
-.banner-image {
-  background-image: url("http://placekitten.com/g/1180/400");
+@mixin cover-image($photo-url) {
+  background-image: url($photo-url);
   background-position: center center;
   background-size: cover;
   bottom: 0;
@@ -7,5 +7,21 @@
   position: absolute;
   right: 0;
   top: 0;
+}
 
+.banner-image {
+  @include cover-image("http://placekitten.com/g/1180/400");
+}
+
+nav {
+  @include outer-container;
+
+  ul {
+    @include li-grid(12, 4, 4);
+    margin: 0;
+
+    li {
+      height: 5em;
+    }
+  }
 }
