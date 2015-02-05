@@ -1,9 +1,5 @@
-@import 'bourbon/dist/bourbon';
+@import 'bourbon/app/assets/stylesheets/bourbon';
 @import 'neat/app/assets/stylesheets/neat';
-
 @import 'newsapps-styles/initialize';
-@import 'newsapps-styles/theme/theme';
 
-@import 'newsapps-styles/layout/masthead';
-
-@import 'newsapps-styles/layout/footers/basic';
+@import 'components/masthead';

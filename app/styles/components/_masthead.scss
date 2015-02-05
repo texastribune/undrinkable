@@ -1,0 +1,27 @@
+$banner-bp: new-breakpoint(max-width 480px);
+
+.masthead .branding {
+  padding: 0;
+
+  .trib-logo {
+    &.mobile {
+      display: none;
+      margin: .75em .5em;
+
+      @include media($banner-bp) {
+        display: inline-block;
+      }
+    }
+
+    &.desktop {
+      display: inline-block;
+      height: 1.2em;
+      margin: .75em .5em;
+
+      @include media($banner-bp) {
+        display: none;
+      }
+    }
+  }
+
+}
