@@ -6,7 +6,12 @@
   @include span-columns(12);
   @include clearfix;
 
-  @include media($default-768) {
+  @include media($medium) {
+    @include span-columns(10);
+    @include shift(1);
+  }
+
+  @include media($large) {
     @include span-columns(10);
     @include shift(1);
   }
