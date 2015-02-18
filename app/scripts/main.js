@@ -10,6 +10,22 @@ function setHeight() {
 $(document).ready(function() {
   setHeight();
   $('.main').fitVids();
+  $('#slides').slidesjs({
+    width: 940,
+    navigation: false,
+    callback: {
+      loaded: function(number) {
+          var height = $(".slidesjs-slide").height();
+          $(".slidesjs-container").css("height", height);
+          $(".slidesjs-control").css("height", height);
+      },
+      start: function(number) {
+          var height = $(".slidesjs-slide").height();
+          $(".slidesjs-container").css("height", height);
+          $(".slidesjs-control").css("height", height);
+      }
+    }
+  });
 });
 
 // Reset heights/positions on window resize

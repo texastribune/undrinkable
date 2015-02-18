@@ -1,0 +1,44 @@
+    #slides {
+      display: none
+    }
+
+    .slidesjs-container {
+      height: 10em;
+    }
+
+    .slidesjs-previous,
+    .slidesjs-next {
+      margin-right: 1em;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: .5em 0 0;
+      float: right;
+      list-style: none;
+
+      li {
+        float: left;
+        margin: 0 .1em;
+
+        a {
+          display: block;
+          width: 13px;
+          height: 0;
+          padding-top: 13px;
+          background-image: url(http://placehold.it/15);
+          background-position: 0 0;
+          float: left;
+          overflow: hidden;
+        }
+      }
+
+      a:hover,
+      a:active {
+        color: #9e2020
+      }
+
+      .navbar {
+        overflow: hidden
+      }
+    }

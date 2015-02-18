@@ -1,11 +1,10 @@
 $banner-bp: new-breakpoint(min-width 815px);
 
 @mixin cover-image($photo-url) {
-  background-image: url($photo-url);
-  background-position: center center;
+  background: url($photo-url) no-repeat center center;
   background-size: cover;
   //ie 8
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.$photo-url', sizingMethod='scale');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$photo-url', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$photo-url', sizingMethod='scale')";
 }
 
@@ -82,7 +81,7 @@ $banner-bp: new-breakpoint(min-width 815px);
 }
 
 .banner-image {
-  @include cover-image("http://placekitten.com/g/1180/400");
+  @include cover-image("http://placehold.it/1180x200");
   bottom: 0;
   left: 0;
   position: absolute;

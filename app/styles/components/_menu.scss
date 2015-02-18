@@ -31,6 +31,7 @@ $menu-bp: new-breakpoint(min-width 681px);
 
     @include media($menu-bp) {
       float: left;
+      min-height: 10em;
       width: 20%;
     }
 
@@ -46,11 +47,6 @@ $menu-bp: new-breakpoint(min-width 681px);
     font-size: .9em;
     font-weight: 400;
     margin-bottom: .5em;
-    text-transform: uppercase;
-
-    @include media($menu-bp) {
-      min-height: 2.2em;
-    }
   }
 
   .subtitle {
