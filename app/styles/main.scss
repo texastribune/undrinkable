@@ -4,8 +4,10 @@
 
 @import 'helpers/grid';
 @import 'helpers/colors';
+@import 'helpers/theme';
 
 @import 'components/masthead';
 @import 'components/banner';
+@import 'components/menu';
 @import 'components/sharelines';
 @import 'components/story-content';

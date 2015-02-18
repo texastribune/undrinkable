@@ -1,0 +1,71 @@
+$menu-bp: new-breakpoint(min-width 681px);
+
+.nav {
+  color: $white;
+  font-family: $base-sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-align: center;
+
+  //Add to active story page
+
+
+}
+
+.menu {
+  color: $theme-eggshell;
+  font-family: $base-sans-serif;
+  line-height: 1.2;
+  text-align: left;
+
+
+  .menu-block {
+    background: $seafoam;
+    border-bottom: 2px solid $dark-seafoam;
+    float: none;
+    letter-spacing: .03em;
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+
+    @include media($menu-bp) {
+      float: left;
+      width: 20%;
+    }
+
+    &:active,
+    &:hover,
+    &.selected {
+      background: $dark-blue;
+    }
+
+  }
+
+  .place {
+    font-size: .9em;
+    font-weight: 400;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+
+    @include media($menu-bp) {
+      min-height: 2.2em;
+    }
+  }
+
+  .subtitle {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 500;
+
+  }
+
+  a {
+    color: $theme-eggshell;
+
+    &:active,
+    &:hover {
+      color: $dark-seafoam;
+    }
+  }
+}

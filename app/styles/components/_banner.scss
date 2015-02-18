@@ -1,17 +1,84 @@
+$banner-bp: new-breakpoint(min-width 815px);
+
 @mixin cover-image($photo-url) {
   background-image: url($photo-url);
   background-position: center center;
   background-size: cover;
+  //ie 8
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.$photo-url', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='$photo-url', sizingMethod='scale')";
 }
 
+/* Header Banner */
 .banner {
   @include clearfix;
+  display: table;
+  height: 10em;
+  margin: 0;
   padding: 0;
+  position: relative;
+  width: 100%;
 
   .grand-header {
+    @extend %content-block;
     background: none;
-    padding: 0;
+    display: block;
+    height: 10em;
+    padding: 0 2em 0 0;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    vertical-align: middle;
+    width: 100%;
+
   }
+
+  a {
+    color: $white;
+  }
+
+  //Project Title
+  h1 {
+    color: $white;
+    font-family: $base-serif;
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 1.15;
+    text-shadow: $black 3px 3px 0;
+    margin: 1em 0 .25em;
+  }
+
+  //Project Subtitle
+  p {
+    color: $white;
+    font-family: $base-sans-serif;
+    font-size: 1em;
+    letter-spacing: .0625em;
+    line-height: 1.15;
+    text-shadow: none;
+    margin-bottom: 1.5em;;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  @include media($banner-bp) {
+    height: 16em;
+
+    h1 {
+      font-size: 3.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  @include media($large) {
+    height: 18em;
+  }
+
 }
 
 .banner-image {
@@ -21,59 +88,4 @@
   position: absolute;
   right: 0;
   top: 0;
-}
-
-.nav {
-  color: $white;
-  font-family: $base-sans-serif;
-  font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 1.2;
-  text-align: center;
-
-  //Add to active story page
-  .selected {
-    background: $button-selected-teal;
-  }
-
-  ul {
-    list-style-type: none;
-    width: 100%;
-
-    li {
-      color: $white;
-
-      &:active {
-        background: $button-hover-teal;
-      }
-
-      &:hover {
-        background: $button-hover-teal;
-      }
-
-    }
-
-    a {
-      text-decoration: none;
-    }
-  }
-
-  li {
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-
-    @include media($small) {
-      width: 100%;
-    }
-
-    @include media($medium) {
-      width: 19%;
-    }
-
-    @include media($large) {
-      width: 19%;
-    }
-  }
-
 }
