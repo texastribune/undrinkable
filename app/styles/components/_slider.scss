@@ -1,44 +1,90 @@
-    #slides {
-      display: none
-    }
+.slider {
+  background: $theme-eggshell;
+  font-family: $base-sans-serif;
+}
 
-    .slidesjs-container {
-      height: 10em;
-    }
+.slidesjs-slide {
+  padding: 1em;
 
-    .slidesjs-previous,
-    .slidesjs-next {
-      margin-right: 1em;
+  &.slide-question {
+    background: $dark-blue;
+    color: $theme-eggshell;
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 1.1;
+  }
+}
+
+
+
+.slide-header {
+  color: $dark-blue;
+  font-weight: 800;
+  font-size: 1.8em;
+  line-height: 1.2;
+  padding: .25em;
+  text-align: left;
+}
+
+.slide-text {
+  color: $theme-grey;
+  font-weight: 400;
+  font-size: 1.2em;
+  font-family: $base-serif;
+  line-height: 1.15;
+
+  li {
+    color: rgb(114, 173, 173);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1.3em;
+    line-height: 1;
+  }
+}
+
+
+
+#slides {
+  display: none
+}
+
+.slidesjs-container {
+  height: 10em;
+}
+
+.slidesjs-previous,
+.slidesjs-next {
+  margin-right: 1em;
+  float: left;
+}
+
+.slidesjs-pagination {
+  margin: .5em 0 0;
+  float: right;
+  list-style: none;
+
+  li {
+    float: left;
+    margin: 0 .1em;
+
+    a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(http://placehold.it/15);
+      background-position: 0 0;
       float: left;
+      overflow: hidden;
     }
+  }
 
-    .slidesjs-pagination {
-      margin: .5em 0 0;
-      float: right;
-      list-style: none;
+  a:hover,
+  a:active {
+    color: #9e2020
+  }
 
-      li {
-        float: left;
-        margin: 0 .1em;
-
-        a {
-          display: block;
-          width: 13px;
-          height: 0;
-          padding-top: 13px;
-          background-image: url(http://placehold.it/15);
-          background-position: 0 0;
-          float: left;
-          overflow: hidden;
-        }
-      }
-
-      a:hover,
-      a:active {
-        color: #9e2020
-      }
-
-      .navbar {
-        overflow: hidden
-      }
-    }
+  .navbar {
+    overflow: hidden
+  }
+}

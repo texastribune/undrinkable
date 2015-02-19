@@ -15,14 +15,18 @@ $(document).ready(function() {
     navigation: false,
     callback: {
       loaded: function(number) {
-          var height = $(".slidesjs-slide").height();
-          $(".slidesjs-container").css("height", height);
-          $(".slidesjs-control").css("height", height);
+          var slide =$('#slide-' + number);
+          var height = slide.height() * 2;
+          $('.slidesjs-container').css('height', height);
+          $('.slidesjs-control').css('height', height);
+          console.log(height);
       },
-      start: function(number) {
-          var height = $(".slidesjs-slide").height();
-          $(".slidesjs-container").css("height", height);
-          $(".slidesjs-control").css("height", height);
+      complete: function(number) {
+          var slide =$('#slide-' + number);
+          var height = slide.height() * 2;
+          $('.slidesjs-container').css('height', height);
+          $('.slidesjs-control').css('height', height);
+          console.log(number + ": " + height);
       }
     }
   });
