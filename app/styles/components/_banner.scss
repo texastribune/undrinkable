@@ -12,7 +12,7 @@ $banner-bp: new-breakpoint(min-width 815px);
 .banner {
   @include clearfix;
   display: table;
-  height: 10em;
+  height: 13em;
   margin: 0;
   padding: 0;
   position: relative;
@@ -30,44 +30,42 @@ $banner-bp: new-breakpoint(min-width 815px);
     vertical-align: middle;
     width: 100%;
 
+    .subhead {
+      color: $light-seafoam;
+      font-family: $base-sans-serif;
+      font-size: 2em;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 2em;
+    }
   }
 
   a {
     color: $white;
-  }
-
-  //Project Title
-  h1 {
-    color: $white;
-    font-family: $base-serif;
-    font-size: 2em;
-    font-weight: 800;
-    line-height: 1.15;
-    text-shadow: $black 3px 3px 0;
-    margin: 1em 0 .25em;
-  }
-
-  //Project Subtitle
-  p {
-    color: $white;
-    font-family: $base-sans-serif;
-    font-size: 1em;
-    letter-spacing: .0625em;
-    line-height: 1.15;
-    text-shadow: none;
-    margin-bottom: 1.5em;;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   img {
+    margin-top: 1em;
     width: 80%;
   }
 
+  //Project Title
+  // .undrinkable {
+  //   font-size: 3em;
+  //   line-height: 1.15;
+  //   text-shadow: 0;
+  //   margin: 1em 0 .25em;
+
+  //   @include media($banner-bp) {
+  //     font-size: 6em;
+  //   }
+  // }
+
   @include media($banner-bp) {
     height: 16em;
-
-    h1 {
-      font-size: 3.5em;
-    }
 
     p {
       font-size: 1.5em;

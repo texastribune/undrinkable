@@ -1,6 +1,13 @@
 .slider {
-  background: $theme-eggshell;
+  background: $soft-eggshell;
   font-family: $base-sans-serif;
+
+  a .fa-chevron-circle-left,
+  a .fa-chevron-circle-right {
+    color: $dark-blue;
+    font-size: 2.5em;
+    margin-top: .25em;
+  }
 }
 
 .slidesjs-slide {
