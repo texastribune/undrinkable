@@ -13,7 +13,7 @@ $(document).ready(function() {
   $('#slides').slidesjs({
     width: 940,
     navigation: false,
-    height: 400,
+    autoHeight: true,
     callback: {
       loaded: function(number) {
         // var slide =$('#slide-' + number);
@@ -25,7 +25,7 @@ $(document).ready(function() {
       complete: function(number) {
         // var slide =$('#slide-' + number);
         // var height = slide.height();
-        if(number == 1) {
+        if(number === 1) {
           // $('.slidesjs-container').css('height', height * 2);
           // $('.slidesjs-control').css('height', height) * 2;
           $('.slidesjs-container').css('background', 'rgb(23,79,101)');
@@ -34,7 +34,6 @@ $(document).ready(function() {
           // $('.slidesjs-control').css('height', height) + 40;
           $('.slidesjs-container').css('background', 'rgb(255,254,252)');
         }
-        console.log(number);
       }
     }
   });

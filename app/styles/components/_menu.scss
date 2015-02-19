@@ -45,8 +45,12 @@ $menu-bp: new-breakpoint(min-width 681px);
 
   .place {
     font-size: .9em;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: .5em;
+
+    @include media($menu-bp) {
+      font-size: 1.25em;
+    }
   }
 
   .subtitle {
@@ -61,7 +65,7 @@ $menu-bp: new-breakpoint(min-width 681px);
 
     &:active,
     &:hover {
-      color: $dark-seafoam;
+      color: $theme-eggshell;
     }
   }
 }

@@ -5,7 +5,7 @@
   a .fa-chevron-circle-left,
   a .fa-chevron-circle-right {
     color: $dark-blue;
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top: .25em;
   }
 }
@@ -21,8 +21,6 @@
     line-height: 1.1;
   }
 }
-
-
 
 .slide-header {
   color: $dark-blue;
@@ -42,6 +40,7 @@
 
   li {
     color: rgb(114, 173, 173);
+    font-family: $base-serif;
     font-style: italic;
     font-weight: 800;
     font-size: 1.3em;
@@ -75,14 +74,36 @@
     margin: 0 .1em;
 
     a {
+      color: $dark-seafoam;
       display: block;
-      width: 13px;
-      height: 0;
-      padding-top: 13px;
-      background-image: url(http://placehold.it/15);
-      background-position: 0 0;
       float: left;
+      font-size: 1.3em;
       overflow: hidden;
+      text-decoration: none;
+
+      &:before {
+        content: "\f1db";
+      }
+
+      &:hover {
+        color: $light-seafoam;
+        text-decoration: none;
+      }
+
+      .icon-circle-thin .active {
+        &:before {
+          content: "\f111";
+          color: $dark-seafoam;
+        }
+
+      }
+    }
+
+    .active {
+       &:before {
+        content: "\f111";
+        color: $dark-seafoam;
+      }
     }
   }
 
