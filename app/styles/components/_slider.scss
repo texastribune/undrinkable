@@ -1,3 +1,5 @@
+$slider-bp: new-breakpoint(min-width 500px);
+
 .slider {
   background: $soft-eggshell;
   font-family: $base-sans-serif;
@@ -10,31 +12,36 @@
   }
 }
 
-.slidesjs-slide {
-  padding: 1em;
+.slide-question {
+  background: $dark-blue;
+  color: $theme-eggshell;
+  font-weight: 800;
+  font-size: 2.2em;
+  line-height: 1.1;
+  padding: .5em;
 
-  &.slide-question {
-    background: $dark-blue;
-    color: $theme-eggshell;
-    font-weight: 800;
+  @include media($slider-bp) {
     font-size: 3em;
-    line-height: 1.1;
   }
 }
 
 .slide-header {
   color: $dark-blue;
   font-weight: 800;
-  font-size: 1.8em;
+  font-size: 1.2em;
   line-height: 1.2;
-  padding: .25em;
+  padding: .25em 0;
   text-align: left;
+
+  @include media($slider-bp) {
+    font-size: 1.8em;
+  }
 }
 
 .slide-text {
   color: $theme-grey;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: .9em;
   font-family: $base-serif;
   line-height: 1.15;
 
@@ -43,8 +50,16 @@
     font-family: $base-serif;
     font-style: italic;
     font-weight: 800;
-    font-size: 1.3em;
+    font-size: 1em;
     line-height: 1;
+  }
+
+  @include media($slider-bp) {
+    font-size: 1.2em;
+
+    li {
+      font-size: 1.3em;
+    }
   }
 }
 

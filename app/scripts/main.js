@@ -4,11 +4,11 @@
 
 function sliderHeight() {
   var windowSize = $(window).width();
-  if (windowSize <= 500) {
-    $('.slidesjs-container').css('height', 700);
-  } else {
-    $('.slidesjs-container').css('height', 500);
-  }
+  var maxHeight = Math.max.apply(null, $('div.slidesjs-slide').map(function (){
+    return $(this).height();
+  }).get());
+  $('.slidesjs-container').css('height', maxHeight + 16);
+  $('.slidesjs-control').css('height', maxHeight + 32);
 }
 
 $(document).ready(function() {
@@ -16,7 +16,6 @@ $(document).ready(function() {
   $('#slides').slidesjs({
     width: 940,
     navigation: false,
-    // autoHeight: true,
     callback: {
       loaded: function(number) {
         $('.slidesjs-container').css('background', 'rgb(23,79,101)');
