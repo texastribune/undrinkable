@@ -2,38 +2,33 @@
 
 // Set element height based on height of reference element
 
-function setHeight() {
-  var shortHeight = $(window).height() * 0.6;
-  $('.landing-banner').css('height', shortHeight);
+function sliderHeight() {
+  var windowSize = $(window).width();
+  if (windowSize <= 500) {
+    $('.slidesjs-container').css('height', 700);
+  } else {
+    $('.slidesjs-container').css('height', 500);
+  }
 }
 
 $(document).ready(function() {
-  setHeight();
   $('.main').fitVids();
   $('#slides').slidesjs({
     width: 940,
     navigation: false,
-    autoHeight: true,
+    // autoHeight: true,
     callback: {
       loaded: function(number) {
-        // var slide =$('#slide-' + number);
-        // var height = slide.height() * 2;
-        // $('.slidesjs-container').css('height', height);
-        // $('.slidesjs-control').css('height', height);
         $('.slidesjs-container').css('background', 'rgb(23,79,101)');
+        sliderHeight();
       },
       complete: function(number) {
-        // var slide =$('#slide-' + number);
-        // var height = slide.height();
         if(number === 1) {
-          // $('.slidesjs-container').css('height', height * 2);
-          // $('.slidesjs-control').css('height', height) * 2;
           $('.slidesjs-container').css('background', 'rgb(23,79,101)');
         } else {
-          // $('.slidesjs-container').css('height', height + 40);
-          // $('.slidesjs-control').css('height', height) + 40;
           $('.slidesjs-container').css('background', 'rgb(255,254,252)');
         }
+        sliderHeight();
       }
     }
   });
@@ -47,9 +42,9 @@ $(document).ready(function() {
 
 // Reset heights/positions on window resize
 $(window).resize(function() {
-  setHeight();
+  sliderHeight();
 });
 
 $(window).on( 'orientationchange', function() {
-  setHeight();
+  sliderHeight();
 });

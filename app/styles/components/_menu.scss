@@ -1,4 +1,4 @@
-$menu-bp: new-breakpoint(min-width 681px);
+$menu-bp: new-breakpoint(min-width 787px);
 
 .nav {
   color: $white;
@@ -7,9 +7,6 @@ $menu-bp: new-breakpoint(min-width 681px);
   letter-spacing: 1px;
   line-height: 1.2;
   text-align: center;
-
-  //Add to active story page
-
 
 }
 
@@ -31,7 +28,7 @@ $menu-bp: new-breakpoint(min-width 681px);
 
     @include media($menu-bp) {
       float: left;
-      min-height: 10em;
+      min-height: 8.25em;
       width: 20%;
     }
 

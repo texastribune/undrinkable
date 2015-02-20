@@ -1,12 +1,22 @@
 $banner-bp: new-breakpoint(max-width 480px);
 
 .masthead .branding {
-  padding: 0;
+  color: $white;
+  font-family: $base-sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding: .35em;
+
+  span {
+    font-size: .8em;
+    margin: 0 .5em;
+    padding-bottom: .5em;
+  }
 
   .trib-logo {
     &.mobile {
       display: none;
-      margin: .75em .5em;
+      // margin: .75em .5em;
 
       @include media($banner-bp) {
         display: inline-block;
@@ -16,7 +26,7 @@ $banner-bp: new-breakpoint(max-width 480px);
     &.desktop {
       display: inline-block;
       height: 1.2em;
-      margin: .75em .5em;
+      margin-top: .25em;
 
       @include media($banner-bp) {
         display: none;
