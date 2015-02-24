@@ -89,17 +89,17 @@
           </div>
           {% else %}
             <div>
+              {% if x.Main %}
               <header class="slide-header">
                 <h3>{{ x.Main }}</h3>
               </header>
+              {% endif %}
               <div class="slide-text">
-              {% if x.Subtext and x.Graphic %}
+              {% if x.Subtext %}
                 <p>{{ x.Subtext }}</p>
+              {% endif %}
+              {% if x.Graphic %}
                 {{ x.Graphic }}
-              {% elif x.Graphic %}
-                {{ x.Graphic }}
-              {% else %}
-                <p>{{ x.Subtext }}</p>
               {% endif %}
               </div>
             </div>
