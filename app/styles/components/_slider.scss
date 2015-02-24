@@ -1,0 +1,135 @@
+$slider-bp: new-breakpoint(min-width 500px);
+
+.slider {
+  background: $soft-eggshell;
+  font-family: $base-sans-serif;
+
+  a .fa-chevron-circle-left,
+  a .fa-chevron-circle-right {
+    color: $dark-blue;
+    font-size: 2em;
+    margin-top: .25em;
+  }
+}
+
+.slide-question {
+  background: $dark-blue;
+  color: $theme-eggshell;
+  font-weight: 800;
+  font-size: 2.2em;
+  line-height: 1.1;
+  padding: .5em;
+
+  @include media($slider-bp) {
+    font-size: 3em;
+  }
+}
+
+.slide-header {
+  color: $dark-blue;
+  font-weight: 800;
+  font-size: 1.2em;
+  line-height: 1.2;
+  padding: .25em 0;
+  text-align: left;
+
+  @include media($slider-bp) {
+    font-size: 1.8em;
+  }
+}
+
+.slide-text {
+  color: $theme-grey;
+  font-weight: 400;
+  font-size: .9em;
+  font-family: $base-serif;
+  line-height: 1.15;
+
+  li {
+    color: rgb(114, 173, 173);
+    font-family: $base-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1em;
+    line-height: 1;
+  }
+
+  @include media($slider-bp) {
+    font-size: 1.2em;
+
+    li {
+      font-size: 1.3em;
+    }
+  }
+}
+
+img.slide-bg {
+  position: absolute;
+}
+// SlidesJS Overrides & Base styles
+#slides {
+  display: none
+}
+
+.slidesjs-container {
+  height: 10em;
+}
+
+.slidesjs-previous,
+.slidesjs-next {
+  margin-right: 1em;
+  float: left;
+}
+
+.slidesjs-pagination {
+  margin: .5em 0 0;
+  float: right;
+  list-style: none;
+
+  li {
+    float: left;
+    margin: 0 .1em;
+
+    a {
+      color: $dark-seafoam;
+      display: block;
+      float: left;
+      font-size: 1.3em;
+      overflow: hidden;
+      text-decoration: none;
+
+      &:before {
+        content: "\f1db";
+      }
+
+      &:hover {
+        color: $light-seafoam;
+        text-decoration: none;
+      }
+
+      .icon-circle-thin .active {
+        &:before {
+          content: "\f111";
+          color: $dark-seafoam;
+        }
+
+      }
+    }
+
+    .active {
+       &:before {
+        content: "\f111";
+        color: $dark-seafoam;
+      }
+    }
+  }
+
+  a:hover,
+  a:active {
+    color: #9e2020
+  }
+
+  .navbar {
+    overflow: hidden
+  }
+}

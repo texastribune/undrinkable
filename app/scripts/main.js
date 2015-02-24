@@ -2,21 +2,48 @@
 
 // Set element height based on height of reference element
 
-function setHeight() {
-  var shortHeight = $(window).height() * 0.6;
-  $('.landing-banner').css('height', shortHeight);
+function sliderHeight() {
+  var windowSize = $(window).width();
+  var maxHeight = Math.max.apply(null, $('div.slidesjs-slide').map(function (){
+    return $(this).height();
+  }).get());
+  $('.slidesjs-container').css('height', maxHeight + 16);
+  $('.slidesjs-control').css('height', maxHeight + 32);
 }
 
 $(document).ready(function() {
-  setHeight();
   $('.main').fitVids();
+  $('#slides').slidesjs({
+    width: 940,
+    navigation: false,
+    callback: {
+      loaded: function(number) {
+        $('.slidesjs-container').css('background', 'rgb(23,79,101)');
+        sliderHeight();
+      },
+      complete: function(number) {
+        if(number === 1) {
+          $('.slidesjs-container').css('background', 'rgb(23,79,101)');
+        } else {
+          $('.slidesjs-container').css('background', 'rgb(255,254,252)');
+        }
+        sliderHeight();
+      }
+    }
+  });
+
+  if(!Modernizr.svg) {
+    $('img[src*="svg"]').attr('src', function() {
+      return $(this).attr('src').replace('.svg', '.png');
+    });
+  }
 });
 
 // Reset heights/positions on window resize
 $(window).resize(function() {
-  setHeight();
+  sliderHeight();
 });
 
 $(window).on( 'orientationchange', function() {
-  setHeight();
+  sliderHeight();
 });

@@ -1,0 +1,68 @@
+$menu-bp: new-breakpoint(min-width 787px);
+
+.nav {
+  color: $white;
+  font-family: $base-sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-align: center;
+
+}
+
+.menu {
+  color: $theme-eggshell;
+  font-family: $base-sans-serif;
+  line-height: 1.2;
+  text-align: left;
+
+
+  .menu-block {
+    background: $seafoam;
+    border-bottom: 2px solid $dark-seafoam;
+    float: none;
+    letter-spacing: .03em;
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+
+    @include media($menu-bp) {
+      float: left;
+      min-height: 8.25em;
+      width: 20%;
+    }
+
+    &:active,
+    &:hover,
+    &.selected {
+      background: $dark-blue;
+    }
+
+  }
+
+  .place {
+    font-size: .9em;
+    font-weight: 600;
+    margin-bottom: .5em;
+
+    @include media($menu-bp) {
+      font-size: 1.25em;
+    }
+  }
+
+  .subtitle {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 500;
+
+  }
+
+  a {
+    color: $theme-eggshell;
+
+    &:active,
+    &:hover {
+      color: $theme-eggshell;
+    }
+  }
+}

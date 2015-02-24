@@ -18,21 +18,18 @@
   <!-- endbuild -->
 
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
-
+  <script src="scripts/libs/modernizer.min.js"></script>
   {% include 'app/templates/includes/ad_script.html' %}
 
 </head>
 <body>
   <header class="masthead app-bar promote-layer">
-    <div class="app-bar-container">
-      <section class="app-bar-actions">
-        <div class="container menu-container">
-          <div class="branding">
-            <a href="//www.texastribune.org/"><img class="trib-logo desktop" alt="The Texas Tribune" src="//s3.amazonaws.com/apps.texastribune.org/branding/TxTrib-logo-white500x55.png"></a>
-            <a href="//www.texastribune.org/"><img class="trib-logo mobile" alt="The Texas Tribune" src="//s3.amazonaws.com/apps.texastribune.org/branding/TT-logo-white.dd56ad79c0da.png"></a>
-          </div>
-        </div>
-      </section>
+    <div class="container menu-container">
+      <div class="branding">
+        <span>A project by </span>
+        <a href="//www.texastribune.org/"><img class="trib-logo desktop" alt="The Texas Tribune" src="//s3.amazonaws.com/apps.texastribune.org/branding/TxTrib-logo-white500x55.png"></a>
+        <a href="//www.texastribune.org/"><img class="trib-logo mobile" alt="The Texas Tribune" src="//s3.amazonaws.com/apps.texastribune.org/branding/TT-logo-white.dd56ad79c0da.png"></a>
+      </div>
     </div>
   </header>
 {% block content %}{% endblock %}
@@ -91,7 +88,8 @@
 </script>
 
 <!-- build:js({app,.tmp}) scripts/main.js -->
-<script src="scripts/jquery.fitvids.js"></script>
+<script src="scripts/libs/jquery.fitvids.js"></script>
+<script src="scripts/libs/jquery.slides.min.js"></script>
 <script src="scripts/main.js"></script>
 <!-- endbuild -->
 <script type="text/javascript">
