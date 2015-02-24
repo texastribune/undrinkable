@@ -87,15 +87,20 @@
           <div class="slide-question">
             <h2>{{ x.Main }}</h2>
           </div>
-
           {% else %}
             <div>
               <header class="slide-header">
                 <h3>{{ x.Main }}</h3>
               </header>
               <div class="slide-text">
-                {{ x.Subtext }}
-                {{ x.Grpahic }}
+              {% if x.Subtext and x.Graphic %}
+                <p>{{ x.Subtext }}</p>
+                {{ x.Graphic }}
+              {% elif x.Graphic %}
+                {{ x.Graphic }}
+              {% else %}
+                <p>{{ x.Subtext }}</p>
+              {% endif %}
               </div>
             </div>
           {% endif %}

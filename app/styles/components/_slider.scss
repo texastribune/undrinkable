@@ -47,6 +47,7 @@ $slider-bp: new-breakpoint(min-width 500px);
   font-size: 1.2em;
   line-height: 1.2;
   padding: .25em 0;
+  margin-bottom: .75em;
   text-align: left;
 
   @include media($slider-bp) {
@@ -98,11 +99,11 @@ img.slide-bg {
   height: 10em;
 }
 
-.slidesjs-previous,
-.slidesjs-next {
-  margin-right: 1em;
-  float: left;
-}
+// .slidesjs-previous,
+// .slidesjs-next {
+//   margin-right: 1em;
+//   float: left;
+// }
 
 .slidesjs-pagination {
   margin: .5em 0 0;

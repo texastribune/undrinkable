@@ -17,12 +17,13 @@
   "OVERVIEW_SLIDER": [
     {
       "Slide": "QUESTION",
-      "Main": "<h2>How many Texans don’t have drinkable water?</h2>"
+      "Main": "How many Texans don’t have drinkable water?"
     },
     {
       "Slide": 1,
       "Main": "The best guess is that 90,000 Texans — roughly 3.5 percent of those living along the border — don’t have running water in their homes.",
-      "Subtext": "SOURCE: Border Environment Cooperation Commission, 2010 U.S. Census."
+      "Subtext": "SOURCE: Border Environment Cooperation Commission, 2010 U.S. Census.",
+      "Graphic": "<img src=\"images/testgraphics/faucetslide-01.svg\">"
     },
     {
       "Slide": 2,
@@ -33,15 +34,13 @@
       "Main": "There’s no data on how many more Texans don’t have drinkable water. Other than by going community to community, there’s no way to get a count. State health and environmental agencies don’t keep track."
     },
     {
-      "Slide": 4
+      "Slide": 4,
+      "Graphic": "<img src=\"images/testgraphics/waterglass-03.svg\">"
     },
     {
       "Slide": 5,
       "Main": "But it’s likely that tens of thousands of Texans have running water that might not be fit to drink. The Tribune visited four communities, home to at least 24,059 Texans, whose water is suspect.",
       "Graphic": "<ul><li>Rio Grande City: 14,021</li>\n<li>Rio Bravo/El Cenizo: 8,067</li>\n<li>Vinton: 1,971</li>\n<li>Las Pampas: Unknown (estimated 30 families)</li></ul>"
-    },
-    {
-      "Slide": 6
     }
   ],
   "VINTON": {
