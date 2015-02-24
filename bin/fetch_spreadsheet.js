@@ -16,7 +16,8 @@ var OAuth2Client = google.auth.OAuth2;
 var drive = google.drive('v2');
 
 marked.setOptions({
-  smartypants: true
+  smartypants: true,
+  gfm: false
 });
 
 // Collect the environmental/config variables

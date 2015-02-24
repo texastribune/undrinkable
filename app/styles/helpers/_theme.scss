@@ -9,20 +9,10 @@ body {
     line-height: 1.4;
   }
 
-  // Slider Overrides
-  #slides {
-    ul {
-      list-style-type: none;
-      margin-top: 1em;
-    }
-
-    li:last-child {
-      margin-bottom: .5em;
-    }
-
-    .slide-text ul {
-      list-style-type: disc;
-      margin-left: .25em;
-    }
+  .block-quote {
+    border-top: 2px solid $tribune-yellow;
+    border-bottom: 2px solid $tribune-yellow;
+    margin: 1em 0;
   }
 }
+
