@@ -14,24 +14,9 @@ $banner-bp: new-breakpoint(max-width 480px);
   }
 
   .trib-logo {
-    &.mobile {
-      display: none;
-      // margin: .75em .5em;
-
-      @include media($banner-bp) {
-        display: inline-block;
-      }
-    }
-
-    &.desktop {
-      display: inline-block;
-      height: 1.2em;
-      margin-top: .25em;
-
-      @include media($banner-bp) {
-        display: none;
-      }
-    }
+    display: inline-block;
+    max-height: 1.2em;
+    margin-top: .25em;
   }
 
 }
