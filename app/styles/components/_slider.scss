@@ -28,16 +28,29 @@ $slider-bp: new-breakpoint(min-width 500px);
 
 }
 
-.slide-question h2 {
-  background: $dark-blue;
-  color: $theme-eggshell;
-  font-weight: 800;
-  font-size: 2.2em;
-  line-height: 1.1;
-  padding: .5em;
+.slide-question {
+  padding: 2em;
 
-  @include media($slider-bp) {
-    font-size: 3em;
+  h2 {
+    background: $dark-blue;
+    color: $theme-eggshell;
+    font-weight: 800;
+    font-size: 2.2em;
+    line-height: 1.1;
+    margin-bottom: .5em;
+
+    @include media($slider-bp) {
+      font-size: 3em;
+    }
+  }
+
+  p {
+    color: $light-seafoam;
+    font-weight: 400;
+    font-size: 1.2em;
+    font-family: $base-serif;
+    line-height: 1.15;
+    margin-bottom: 1em;
   }
 }
 
