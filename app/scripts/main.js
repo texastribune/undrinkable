@@ -3,7 +3,6 @@
 // Set element height based on height of reference element
 
 function sliderHeight() {
-  var windowSize = $(window).width();
   var maxHeight = Math.max.apply(null, $('div.slidesjs-slide').map(function (){
     return $(this).height();
   }).get());
@@ -17,7 +16,7 @@ $(document).ready(function() {
     width: 940,
     navigation: false,
     callback: {
-      loaded: function(number) {
+      loaded: function() {
         $('.slidesjs-container').css('background', 'rgb(23,79,101)');
         sliderHeight();
       },
