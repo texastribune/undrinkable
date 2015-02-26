@@ -26,6 +26,10 @@ $slider-bp: new-breakpoint(min-width 500px);
     width: 100%;
   }
 
+  p {
+    margin-bottom: 1em;
+  }
+
 }
 
 .slide-question {
@@ -50,7 +54,6 @@ $slider-bp: new-breakpoint(min-width 500px);
     font-size: 1.2em;
     font-family: $base-serif;
     line-height: 1.15;
-    margin-bottom: 1em;
   }
 }
 

@@ -76,7 +76,7 @@
       <hr class="yellow">
       <div class="slider">
         <div id="slides">
-        {% for x in VINTON_SLIDER %}
+        {% for x in LASPAMPAS_SLIDER %}
           {% if x.Slide == 'QUESTION' %}
           <div class="slide-question">
             <h2>{{ x.Main }}</h2>
@@ -97,12 +97,20 @@
               {% endif %}
               {% if x.Bullets %}
                 <ul>
-                  {{ x.Bullets }}
+                {{ x.Bullets }}
                 </ul>
               {% endif %}
-              {% if x.Graphic %}
-                {{ x.Graphic }}
+              {% if x.Subtext2 %}
+                <p>{{ x.Subtext2 }}</p>
               {% endif %}
+              {% if x.Bullets2 %}
+                <ul>
+                {{ x.Bullets2 }}
+                </ul>
+              {% endif %}
+<!--               {% if x.Graphic %}
+                {{ x.Graphic }}
+              {% endif %} -->
               </div>
             </div>
           {% endif %}
