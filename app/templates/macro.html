@@ -10,10 +10,20 @@
           {% if x.Subtext %}
             <p>{{ x.Subtext }}</p>
           {% endif %}
+          {% if x.Graphic %}
+            <div class="graphic {{ x.GClass }}">
+              <img class="question" src="images/graphics/{{ x.Graphic }}">
+            </div>
+          {% endif %}
         </div>
         {% else %}
           <div>
             {% if x.Main %}
+              {% if x.GClass == 'icon' %}
+                <div class="graphic {{ x.GClass }}">
+                  <img src="images/graphics/{{ x.Graphic }}">
+                </div>
+              {% endif %}
             <header class="slide-header">
               <h3>{{ x.Main }}</h3>
             </header>
@@ -35,8 +45,10 @@
               {{ x.Bullets2 }}
               </ul>
             {% endif %}
-            {% if x.Graphic %}
-              {{ x.Graphic }}
+            {% if x.Graphic and x.GClass != 'icon' %}
+              <div class="graphic {{ x.GClass }}">
+                <img src="images/graphics/{{ x.Graphic }}">
+              </div>
             {% endif %}
             </div>
           </div>
@@ -49,3 +61,4 @@
     <hr class="yellow">
   </section>
 {% endmacro %}
+

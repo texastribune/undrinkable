@@ -21,9 +21,34 @@ $slider-bp: new-breakpoint(min-width 500px);
     margin-bottom: .5em;
   }
 
-  img {
-    max-width: 650px;
-    width: 100%;
+  .graphic {
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
+
+    &.question {
+      @include media($slider-bp) {
+        margin-bottom: 1em;
+        width: 70%;
+      }
+    }
+
+    &.icon {
+      float: right;
+      margin: 0 0 1em 1em;
+      width: 35%;
+      @include media($slider-bp) {
+        width: 25%;
+      }
+    }
+
+    &.embed {
+      @include media($slider-bp) {
+      }
+    }
+
   }
 
   p {
@@ -72,11 +97,13 @@ $slider-bp: new-breakpoint(min-width 500px);
 }
 
 .slide-text {
-  color: $theme-grey;
-  font-weight: 400;
-  font-size: .9em;
+  color: rgb(114, 173, 173);
   font-family: $base-serif;
-  line-height: 1.15;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 1em;
+  line-height: 1.2;
+  margin-bottom: .5em;
 
   ul {
     list-style-type: disc;
@@ -85,20 +112,19 @@ $slider-bp: new-breakpoint(min-width 500px);
   }
 
   li {
-    color: rgb(114, 173, 173);
+    color: $theme-grey;
+    font-size: .9em;
     font-family: $base-serif;
-    font-style: italic;
-    font-weight: 800;
-    font-size: 1em;
-    line-height: 1;
-    margin-bottom: .5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.15;
   }
 
   @include media($slider-bp) {
-    font-size: 1.2em;
+    font-size: 1.4em;
 
     li {
-      font-size: 1.3em;
+      font-size: 1em;
     }
   }
 }

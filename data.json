@@ -44,7 +44,7 @@
       "Slide": 1,
       "Main": "The best guess is that 90,000 Texans — roughly 3.5 percent of those living along the border — don’t have running water in their homes.",
       "Subtext": "SOURCE: Border Environment Cooperation Commission, 2010 U.S. Census.",
-      "Graphic": "faucet"
+      "Graphic": "faucet-01.svg"
     },
     {
       "Slide": 2,
@@ -52,14 +52,11 @@
     },
     {
       "Slide": 3,
-      "Main": "There’s no data on how many more Texans don’t have drinkable water. Other than by going community to community, there’s no way to get a count. State health and environmental agencies don’t keep track."
+      "Main": "There’s no data on how many more Texans don’t have drinkable water. Other than by going community to community, there’s no way to get a count. State health and environmental agencies don’t keep track.",
+      "Graphic": "glass-01.svg"
     },
     {
       "Slide": 4,
-      "Graphic": "water glass"
-    },
-    {
-      "Slide": 5,
       "Main": "But it’s likely that tens of thousands of Texans have running water that might not be fit to drink. The Tribune visited four communities, home to at least 24,059 Texans, whose water is suspect.",
       "Bullets": "<li>Rio Grande City: 14,021</li>\n<li>Rio Bravo/El Cenizo: 8,067</li>\n<li>Vinton: 1,971</li>\n<li>Las Pampas: Unknown (estimated 30 families)</li>"
     }
@@ -69,7 +66,8 @@
       "Slide": "QUESTION",
       "Main": "What’s in the drinking water?",
       "Subtext": "A variety of contaminants can make water unsafe to drink. ",
-      "Graphic": "all four graphics, but smaller"
+      "Graphic": "contaminants-01.svg",
+      "GClass": "question"
     },
     {
       "Slide": 1,
@@ -78,14 +76,16 @@
       "Bullets": "<li>E. coli is a bacteria found in human and animal waste.</li>",
       "Subtext2": "How does it get into drinking water?",
       "Bullets2": "<li>E. coli can enter water sources from raw sewage dumps into the Rio Grande or runoff seeping into groundwater. When water isn’t properly treated, E. coli can end up in drinking water.</li>",
-      "Graphic": "ecoli"
+      "Graphic": "ecoli-01.svg",
+      "GClass": "icon"
     },
     {
       "Slide": 2,
       "Main": "E.coli",
       "Subtext": "What are the potential health consequences? Most strains of E. coli are harmless, but some can cause infections leading to:",
       "Bullets": "<li>Most strains of E. coli are harmless, but some can cause infections leading to diarrhea, vomiting, stomach cramps, mild fever, nausea and headaches.</li><li>While most recover from these symptoms within a week, some people — particularly young children and older adults — may develop a life-threatening form of kidney failure called hemolytic uremic syndrome.</li>",
-      "Graphic": "ecoli"
+      "Graphic": "ecoli-01.svg",
+      "GClass": "icon"
     },
     {
       "Slide": 3,
@@ -94,14 +94,16 @@
       "Bullets": "<li>Total coliforms are bacteria that are not harmful to humans. Their presence in a treated water supply, however, indicates that dangerous contaminants are also present.<li>",
       "Subtext2": "How does it get into drinking water?",
       "Bullets2": "<li>The presence of coliforms means that treated water was contaminated with sewage or animal waste.</li>",
-      "Graphic": "Total coliforms"
+      "Graphic": "ecoli-01.svg",
+      "GClass": "icon"
     },
     {
       "Slide": 4,
       "Main": "Total coliforms",
       "Subtext": "What are the potential health consequences?",
       "Bullets": "<li>The contaminants present with coliforms may cause diarrhea, abdominal cramps, nausea and possibly jaundice, but not all infected individuals develop symptoms.</li>",
-      "Graphic": "Total coliforms"
+      "Graphic": "ecoli-01.svg",
+      "GClass": "icon"
     },
     {
       "Slide": 5,
@@ -110,14 +112,16 @@
       "Bullets": "<li>Arsenic is a semi-metal element that is poisonous if ingested in large quantities.</li>",
       "Subtext2": "How does it get into drinking water?",
       "Bullets2": "<li>Because arsenic exists naturally in the ground, it commonly contaminates groundwater and rivers. It can also reach water supplies as a result of industrial and agricultural pollution.</li>",
-      "Graphic": "Arsenic"
+      "Graphic": "ecoli-01.svg",
+      "GClass": "icon"
     },
     {
       "Slide": 6,
       "Main": "Arsenic",
       "Subtext": "What are the potential health consequences?",
       "Bullets": "<li>Longtime ingestion of arsenic can cause thickening and discoloration of the skin, stomach pain, nausea, vomiting, diarrhea, numbness in hands and feet, partial paralysis and blindness. Arsenic has also been linked to cancer of the bladder, lungs, skin, kidney, nasal passages, liver and prostate.</li>",
-      "Graphic": "Arsenic"
+      "Graphic": "ecoli-01.svg",
+      "GClass": "icon"
     },
     {
       "Slide": 7,
@@ -126,7 +130,8 @@
       "Bullets": "<li>When disinfectants such as chlorine are added to drinking water to protect against disease-causing contaminants, the disinfectants can react with naturally occurring materials in the water to form potentially dangerous byproducts.</li>",
       "Subtext2": "What are the potential health consequences?",
       "Bullets2": "<li>Long-term exposure to various disinfectant byproducts can lead to liver, kidney or central nervous system problems and an increased risk of cancer.</li>",
-      "Graphic": "Disinfectant byproducts"
+      "Graphic": "ecoli-01.svg",
+      "GClass": "icon"
     }
   ],
   "LASPAMPAS_SLIDER": [
