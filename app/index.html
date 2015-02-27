@@ -1,4 +1,5 @@
 {% extends 'app/templates/base.html' %}
+{% import 'app/templates/macro.html' as macro %}
 
 {% block content %}
 <section class="banner">
@@ -72,55 +73,7 @@
       <section class="prose">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a felis ipsum. Cras accumsan efficitur posuere. Donec varius felis lacus, at pellentesque enim dapibus sed. In pellentesque lorem ut velit ullamcorper gravida. Sed sit amet blandit ex, eu luctus metus. Nullam at semper enim, vitae maximus lacus. Vivamus eget maximus ex. Praesent aliquet efficitur lectus, ac bibendum nulla.</p>
       </section>
-      <section>
-      <hr class="yellow">
-      <div class="slider">
-        <div id="slides">
-        {% for x in OVERVIEW_SLIDER %}
-          {% if x.Slide == 'QUESTION' %}
-          <div class="slide-question">
-            <h2>{{ x.Main }}</h2>
-            {% if x.Subtext %}
-              <p>{{ x.Subtext }}</p>
-            {% endif %}
-          </div>
-          {% else %}
-            <div>
-              {% if x.Main %}
-              <header class="slide-header">
-                <h3>{{ x.Main }}</h3>
-              </header>
-              {% endif %}
-              <div class="slide-text">
-              {% if x.Subtext %}
-                <p>{{ x.Subtext }}</p>
-              {% endif %}
-              {% if x.Bullets %}
-                <ul>
-                {{ x.Bullets }}
-                </ul>
-              {% endif %}
-              {% if x.Subtext2 %}
-                <p>{{ x.Subtext2 }}</p>
-              {% endif %}
-              {% if x.Bullets2 %}
-                <ul>
-                {{ x.Bullets2 }}
-                </ul>
-              {% endif %}
-<!--               {% if x.Graphic %}
-                {{ x.Graphic }}
-              {% endif %} -->
-              </div>
-            </div>
-          {% endif %}
-        {% endfor %}
-          <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-circle-left"></i></a>
-          <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-circle-right"></i></a>
-          </div>
-      </div>
-      <hr class="yellow">
-      </section>
+      {{ macro.slider(OVERVIEW_SLIDER) }}
       <section class="prose">
       {{ OVERVIEW.FULL_TEXT }}
       </section>

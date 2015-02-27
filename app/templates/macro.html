@@ -1,21 +1,51 @@
-{% macro(slider) %}
-  {% for x in slider %}
-    {% if loop.first %}
-      <div class="slide-question">
-        <div class="slide-content">
-          <h2>{{ slider.DS_QUESTION }}</h2>
+{% macro slider(sheet) %}
+  <section>
+    <hr class="yellow">
+    <div class="slider">
+      <div id="slides">
+      {% for x in sheet %}
+        {% if x.Slide == 'QUESTION' %}
+        <div class="slide-question">
+          <h2>{{ x.Main }}</h2>
+          {% if x.Subtext %}
+            <p>{{ x.Subtext }}</p>
+          {% endif %}
         </div>
-      </div>
-    {% elif %}
-      <div>
-        <header class="slide-header">
-          <h3>The best guess is that 90,000 Texans — roughly 3.5 percent of those living along the border — don’t have running water in their homes.</h3>
-        </header>
-        <div class="slide-text">
-          <p>SOURCE: Border Environment Cooperation Commission, 2010 U.S. Census.</p>
-          <img src="images/testgraphics/faucetslide-01.svg" class="slide-embed">
+        {% else %}
+          <div>
+            {% if x.Main %}
+            <header class="slide-header">
+              <h3>{{ x.Main }}</h3>
+            </header>
+            {% endif %}
+            <div class="slide-text">
+            {% if x.Subtext %}
+              <p>{{ x.Subtext }}</p>
+            {% endif %}
+            {% if x.Bullets %}
+              <ul>
+              {{ x.Bullets }}
+              </ul>
+            {% endif %}
+            {% if x.Subtext2 %}
+              <p>{{ x.Subtext2 }}</p>
+            {% endif %}
+            {% if x.Bullets2 %}
+              <ul>
+              {{ x.Bullets2 }}
+              </ul>
+            {% endif %}
+            {% if x.Graphic %}
+              {{ x.Graphic }}
+            {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-circle-left"></i></a>
+        <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-circle-right"></i></a>
         </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+    </div>
+    <hr class="yellow">
+  </section>
 {% endmacro %}
