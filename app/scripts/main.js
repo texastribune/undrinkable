@@ -14,7 +14,7 @@ $(document).ready(function() {
   $('.main').fitVids();
   $('#slides').slidesjs({
     width: 940,
-    navigation: false,
+    navigation: true,
     callback: {
       loaded: function() {
         $('.slidesjs-container').css('background', 'rgb(23,79,101)');
