@@ -38,13 +38,15 @@
   "OVERVIEW_SLIDER": [
     {
       "Slide": "QUESTION",
-      "Main": "How many Texans don’t have drinkable water?"
+      "Main": "How many Texans don’t have drinkable water?",
+      "Graphic": "abacus-01.svg"
     },
     {
       "Slide": 1,
       "Main": "The best guess is that 90,000 Texans — roughly 3.5 percent of those living along the border — don’t have running water in their homes.",
       "Subtext": "SOURCE: Border Environment Cooperation Commission, 2010 U.S. Census.",
-      "Graphic": "faucet-01.svg"
+      "Graphic": "faucet-01.svg",
+      "GClass": "embed"
     },
     {
       "Slide": 2,
@@ -53,7 +55,8 @@
     {
       "Slide": 3,
       "Main": "There’s no data on how many more Texans don’t have drinkable water. Other than by going community to community, there’s no way to get a count. State health and environmental agencies don’t keep track.",
-      "Graphic": "glass-01.svg"
+      "Graphic": "glass-01.svg",
+      "GClass": "embed"
     },
     {
       "Slide": 4,
@@ -142,14 +145,12 @@
     {
       "Slide": 1,
       "Main": "Why are there colonias along the border?",
-      "Subtext": "In the 1950s, cagey real estate developers started to sell cheap tracts of low-grade land in unincorporated areas mostly to poor Hispanic migrants, who bought the land despite precarious living conditions.",
-      "Graphic": "PHOTO"
+      "Subtext": "In the 1950s, cagey real estate developers started to sell cheap tracts of low-grade land in unincorporated areas mostly to poor Hispanic migrants, who bought the land despite precarious living conditions."
     },
     {
       "Slide": 2,
       "Main": "Promises never fulfilled",
-      "Subtext": "Colonia residents have waited years — sometimes decades — for the water and sewer service developers falsely promised. Many do not have the means to pack up and leave.",
-      "Graphic": "PHOTO"
+      "Subtext": "Colonia residents have waited years — sometimes decades — for the water and sewer service developers falsely promised. Many do not have the means to pack up and leave."
     },
     {
       "Slide": 3,
@@ -160,25 +161,25 @@
       "Slide": 4,
       "Main": "Since Texas started tracking colonia development, there have been minor improvements.",
       "Subtext": "In 2005, the state began tracking its progress ​​on improving life for colonia residents.",
-      "Graphic": "Graphic - compare 2006 / 2014"
+      "Subtext2": "In the six most populous border counties...",
+      "Bullets2": "<li>2006: 145,400 of 359,800 residents had water and wastewater services (40 percent)</li>\n<li>2014: 214,200 of 369,500 residents had water and wastewater services (58 percent)</li>"
     },
     {
       "Slide": 5,
       "Main": "Progress is often slow because colonias must ask the state for help.",
-      "Subtext": "Colonias without water services are expected to speak up. That requires local leaders who can navigate government bureaucracy, but cultural barriers and mistrust of government often stand in the way.",
-      "Graphic": "Maze"
+      "Subtext": "Colonias without water services are expected to speak up. That requires local leaders who can navigate government bureaucracy, but cultural barriers and mistrust of government often stand in the way."
     },
     {
       "Slide": 6,
       "Main": "For colonias still seeking help, funding is running dry.",
-      "Subtext": "A billion dollars in grants have been spent since 1989 to improve services in colonias, but there is very little money left. Communities seeking help must borrow money and pay it back, which many cannot afford to do.",
-      "Graphic": "Maze"
+      "Subtext": "A billion dollars in grants have been spent since 1989 to improve services in colonias, but there is very little money left. Communities seeking help must borrow money and pay it back, which many cannot afford to do."
     }
   ],
   "RIOGRANDE_SLIDER": [
     {
       "Slide": "QUESTION",
-      "Main": "What are water supply corporations?"
+      "Main": "What are water supply corporations?",
+      "Graphic": "solodrop-01.svg"
     },
     {
       "Slide": 1,
@@ -214,19 +215,20 @@
   "RIOBRAVO_SLIDER": [
     {
       "Slide": "QUESTION",
-      "Main": "Why is money not enough?"
+      "Main": "Why is money not enough?",
+      "Graphic": "moneydrops-01.svg"
     },
     {
       "Slide": 1,
       "Main": "A lot of money has been spent on border water projects.",
       "Subtext": "Over the last three decades, at least $1.8 billion has been spent on water and wastewater projects. ​Half ​was grant money, while the rest was loans.",
-      "Graphic": "​Federal spending ~ $618 million in grants, $796 million in loans\nTexas spending ~ $300 million in grants, $46 million in loans \n\nTotal: At least $1.8 billion, including $918 million in grants \n\nSources: *North American Development Bank, Texas Water Development Board, U.S. Department of Agriculture, U.S. Department of Housing and Urban Development"
+      "Graphic": "barchart-01.svg",
+      "GClass": "chart"
     },
     {
       "Slide": 2,
       "Main": "That money has accomplished a lot.",
-      "Subtext": "There's no comprehensive list, but hundreds of communities in Texas now have water treatment plants, pipelines and storage tanks.",
-      "Graphic": "PHOTO of a state of the art water treatment plant or similar graphic of shiny new things"
+      "Subtext": "There's no comprehensive list, but hundreds of communities in Texas now have water treatment plants, pipelines and storage tanks."
     },
     {
       "Slide": 3,
