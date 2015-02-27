@@ -2,6 +2,8 @@ $small: new-breakpoint(min-width 560px max-width 900px);
 $medium: new-breakpoint(min-width 901px max-width 1080px);
 $large: new-breakpoint(min-width 1081px);
 
+$story-small: new-breakpoint(min-width 750px max-width 1000px);
+$story-large: new-breakpoint(min-width 1001px);
 
 .story-container {
   @include outer-container;
@@ -11,17 +13,12 @@ $large: new-breakpoint(min-width 1081px);
   @include span-columns(12);
   @include clearfix;
 
-  @include media($small) {
+  @include media($story-small) {
     @include span-columns(10);
     @include shift(1);
   }
 
-  @include media($medium) {
-    @include span-columns(8);
-    @include shift(2);
-  }
-
-  @include media($large) {
+  @include media($story-large) {
     @include span-columns(8);
     @include shift(2);
   }

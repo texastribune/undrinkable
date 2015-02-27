@@ -10,3 +10,16 @@
 .share-row {
   @extend %content-block;
 }
+
+.prose {
+  h1,
+  p {
+    line-height: 1.4;
+  }
+
+  .block-quote {
+    border-top: 2px solid $tribune-yellow;
+    border-bottom: 2px solid $tribune-yellow;
+    margin: 1em 0;
+  }
+}

@@ -89,21 +89,7 @@
     }
   }
 
-  @include media($medium) {
-    @include span-columns(10);
-    @include shift(1);
-    @include pad(0);
-
-    p {
-      font-size: .8em;
-    }
-
-    .fa {
-      font-size: 1em;
-    }
-  }
-
-  @include media($large) {
+  @include media($story-large) {
     @include span-columns(10);
     @include shift(1);
     @include pad(0);

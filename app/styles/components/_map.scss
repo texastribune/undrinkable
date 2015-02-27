@@ -1,0 +1,8 @@
+$map-bp: new-breakpoint(min-width 600px);
+
+img.map {
+  @include media($map-bp) {
+    float: left;
+    width: 50%;
+  }
+}
