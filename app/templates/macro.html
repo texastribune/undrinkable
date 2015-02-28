@@ -86,6 +86,11 @@
   </section>
 {% endmacro %}
 
-{% macro photo(photo_num, caption, credit) %}
-  <img src="images/photos/{{ photo_num }}">
+{% macro photo(p, cap, cred, o) %}
+  {% if o %}
+    <img src="images/photos/{{ p }}">
+  {% else %}
+    <img src="../images/photos/{{ p }}">
+  {% endif %}
+  <p class="caption">{{ cap }} Photo by {{ cred }}.</p>
 {% endmacro %}
