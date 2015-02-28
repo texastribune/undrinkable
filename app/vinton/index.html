@@ -1,33 +1,33 @@
-{% extends 'app/templates/base.html' %}
+{% extends 'app/templates/base_sub.html' %}
 {% import 'app/templates/macro.html' as macro %}
 
 {% block content %}
 <section class="banner">
   <div class="banner-image"></div>
   <header class="grand-header">
-    <h1><a href=""><img src="images/undrinkable-logo.svg"></a></h1>
+    <h1><a href=""><img src="../images/undrinkable-logo.svg"></a></h1>
     <p class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </header>
 </section>
 <!-- Static navigation bar -->
-{{ macro.nav('overview') }}
+{{ macro.nav('vinton') }}
 <div class="main">
 
   <div class="story-container">
     <div class="story-content">
-      {{ macro.header(OVERVIEW) }}
+      {{ macro.header(VINTON) }}
 
       <!-- STORY CONTENT! -->
       <section class="prose">
 
-      <img class="map" src="/images/maps/undrinkablemap-01.svg">
+      <img class="map" src="/images/maps/undrinkablemap-02.svg">
 
-      {{ macro.photo(OVERVIEW.PHOTO_2, OVERVIEW.CAPTION_2, OVERVIEW.CREDIT_2, 0) }}
+      {{ macro.photo(VINTON.PHOTO_2, VINTON.CAPTION_2, VINTON.CREDIT_2) }}
 
       </section>
-      {{ macro.slider(OVERVIEW_SLIDER, 0) }}
+      {{ macro.slider(VINTON_SLIDER) }}
       <section class="prose">
-      {{ OVERVIEW.FULL_TEXT }}
+      {{ VINTON.FULL_TEXT }}
       </section>
     </div>
 

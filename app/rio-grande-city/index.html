@@ -1,33 +1,33 @@
-{% extends 'app/templates/base.html' %}
+{% extends 'app/templates/base_sub.html' %}
 {% import 'app/templates/macro.html' as macro %}
 
 {% block content %}
 <section class="banner">
   <div class="banner-image"></div>
   <header class="grand-header">
-    <h1><a href=""><img src="images/undrinkable-logo.svg"></a></h1>
+    <h1><a href=""><img src="../images/undrinkable-logo.svg"></a></h1>
     <p class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </header>
 </section>
 <!-- Static navigation bar -->
-{{ macro.nav('overview') }}
+{{ macro.nav('riograndecity') }}
 <div class="main">
 
   <div class="story-container">
     <div class="story-content">
-      {{ macro.header(OVERVIEW) }}
+      {{ macro.header(RIOGRANDE) }}
 
       <!-- STORY CONTENT! -->
       <section class="prose">
 
-      <img class="map" src="/images/maps/undrinkablemap-01.svg">
+      <img class="map" src="/images/maps/undrinkablemap-04.svg">
 
-      {{ macro.photo(OVERVIEW.PHOTO_2, OVERVIEW.CAPTION_2, OVERVIEW.CREDIT_2, 0) }}
+      {{ macro.photo(RIOGRANDE.PHOTO_2, RIOGRANDE.CAPTION_2, RIOGRANDE.CREDIT_2) }}
 
       </section>
-      {{ macro.slider(OVERVIEW_SLIDER, 0) }}
+      {{ macro.slider(RIOGRANDE_SLIDER) }}
       <section class="prose">
-      {{ OVERVIEW.FULL_TEXT }}
+      {{ RIOGRANDE.FULL_TEXT }}
       </section>
     </div>
 
