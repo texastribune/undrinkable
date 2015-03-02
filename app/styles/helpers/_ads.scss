@@ -1,8 +1,10 @@
+$box-ad-bp: new-breakpoint(min-width 574px);
+
 .ad-container {
   border-bottom: 1px solid $line-gray;
   border-top: 1px solid $line-gray;
   padding: 1em 0;
-  margin: 0;
+  margin-bottom: 1em;
 }
 
 .banner-ad {
@@ -21,7 +23,12 @@
 }
 
 .box-ad {
-  margin-bottom: 1em;
+  text-align: center;
+
+  @include media($box-ad-bp) {
+    float: right;
+    margin: 0 0 0 1em;
+  }
 }
 
 .rotating-ad {

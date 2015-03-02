@@ -135,7 +135,8 @@
     {
       "Slide": "QUESTION",
       "Main": "How many Texans don’t have drinkable water?",
-      "Graphic": "abacus-01.svg"
+      "Graphic": "abacus-01.svg",
+      "GClass": "embed"
     },
     {
       "Slide": 1,
