@@ -59,7 +59,6 @@
 
 {% macro slider(sheet, o) %}
   <section>
-    <hr class="yellow">
     <div class="slider">
       <div id="slides">
       {% for x in sheet %}
@@ -122,15 +121,16 @@
         <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-circle-right"></i></a>
         </div>
     </div>
-    <hr class="yellow">
   </section>
 {% endmacro %}
 
 {% macro photo(p, cap, cred, o) %}
+  <div class="photo">
   {% if o %}
     <img src="images/photos/{{ p }}">
   {% else %}
     <img src="../images/photos/{{ p }}">
   {% endif %}
-  <p class="caption">{{ cap }} Photo by {{ cred }}.</p>
+    <p class="caption">{{ cap }} Photo by {{ cred }}.</p>
+  </div>
 {% endmacro %}

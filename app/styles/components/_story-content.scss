@@ -5,6 +5,10 @@
     margin-bottom: 1em;
   }
 
+  img {
+    max-width: 665px;
+  }
+
 }
 
 .share-row {
@@ -21,5 +25,9 @@
     border-top: 2px solid $tribune-yellow;
     border-bottom: 2px solid $tribune-yellow;
     margin: 1em 0;
+  }
+
+  .photo {
+    margin: 0 0 1em;
   }
 }
