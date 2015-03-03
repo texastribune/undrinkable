@@ -1,13 +1,12 @@
 $menu-bp: new-breakpoint(min-width 787px);
 
 .nav {
-  color: $white;
+  color: $dark-blue;
   font-family: $base-sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.2;
   text-align: center;
-
 }
 
 .menu {
@@ -19,7 +18,7 @@ $menu-bp: new-breakpoint(min-width 787px);
 
   .menu-block {
     background: $seafoam;
-    border-bottom: 2px solid $dark-seafoam;
+    color: $dark-blue;
     float: none;
     letter-spacing: .03em;
     margin: 0;
@@ -36,6 +35,7 @@ $menu-bp: new-breakpoint(min-width 787px);
     &:hover,
     &.selected {
       background: $dark-blue;
+      color: $white;
     }
 
   }
