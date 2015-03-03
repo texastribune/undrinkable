@@ -24,8 +24,8 @@ $banner-bp: new-breakpoint(min-width 815px);
     width: 100%;
 
     .subhead {
-      color: $light-seafoam;
-      // color: $dark-blue;
+      // color: $light-seafoam;
+      color: $dark-blue;
       font-family: $base-sans-serif;
       font-size: 1.1em;
       font-weight: 600;
@@ -73,7 +73,7 @@ $banner-bp: new-breakpoint(min-width 815px);
 }
 
 .banner-image {
-  @include cover-image("/images/undrinkable-lrg-background-E.jpg");
+  @include cover-image("/images/undrinkable-lrg-background-C.jpg");
   bottom: 0;
   left: 0;
   position: absolute;
