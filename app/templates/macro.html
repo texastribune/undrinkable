@@ -67,6 +67,9 @@
     <h1>{{ sheet.HEADLINE }}</h1>
     <p class="byline">By <a href="http://www.texastribune.org/about/staff/neena-satija/">Neena Satija</a> &amp; <a href="http://www.texastribune.org/about/staff/alexa-ura">Alexa Ura</a> | March 8, 2015</p>
   </header>
+{% endmacro %}
+
+{% macro sharelines(sheet) %}
   <div class="sharelines">
     <h3>Sharelines</h3>
     <ul>
@@ -159,14 +162,14 @@
 {% endmacro %}
 
 {% macro photo(p, cap, cred) %}
-  <div class="photo">
+  <div class="prose photo">
     <img src="../images/photos/{{ p }}">
     <p class="caption">{{ cap }} Photo by {{ cred }}.</p>
   </div>
 {% endmacro %}
 
 {% macro photo_overview(p, cap, cred) %}
-  <div class="photo">
+  <div class="prose photo">
     <img src="images/photos/{{ p }}">
     <p class="caption">{{ cap }} Photo by {{ cred }}.</p>
   </div>
