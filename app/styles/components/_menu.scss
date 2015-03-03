@@ -23,18 +23,18 @@ $menu-bp-large: new-breakpoint(min-width 1158px);
     float: none;
     letter-spacing: .03em;
     margin: 0;
-    padding: 1em;
+    padding: .5em 1em;
     width: 100%;
 
     @include media($menu-bp) {
       float: left;
-      min-height: 8em;
+      min-height: 7em;
       width: 20%;
     }
 
     @include media($menu-bp-large) {
       float: left;
-      min-height: 6em;
+      min-height: 5em;
       width: 20%;
     }
 
