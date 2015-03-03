@@ -1,4 +1,5 @@
-$menu-bp: new-breakpoint(min-width 787px);
+$menu-bp: new-breakpoint(min-width 787px max-width 1157px);
+$menu-bp-large: new-breakpoint(min-width 1158px);
 
 .nav {
   color: $dark-blue;
@@ -27,7 +28,13 @@ $menu-bp: new-breakpoint(min-width 787px);
 
     @include media($menu-bp) {
       float: left;
-      min-height: 8.25em;
+      min-height: 8em;
+      width: 20%;
+    }
+
+    @include media($menu-bp-large) {
+      float: left;
+      min-height: 6em;
       width: 20%;
     }
 
