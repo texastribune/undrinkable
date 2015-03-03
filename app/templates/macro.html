@@ -59,6 +59,11 @@
 
 {% macro header(sheet) %}
   <header class="prose">
+  {% if sheet.SLUG %}
+    <img src="../images/undrinkable-logo.svg" class="undrinkable-logo">
+  {% else %}
+    <img src="images/undrinkable-logo.svg" class="undrinkable-logo">
+  {% endif %}
     <h1>{{ sheet.HEADLINE }}</h1>
     <p class="byline">By <a href="http://www.texastribune.org/about/staff/neena-satija/">Neena Satija</a> &amp; <a href="http://www.texastribune.org/about/staff/alexa-ura">Alexa Ura</a> | March 8, 2015</p>
   </header>

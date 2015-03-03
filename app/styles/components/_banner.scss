@@ -22,28 +22,6 @@ $banner-bp: new-breakpoint(min-width 815px);
     top: 0;
     vertical-align: middle;
     width: 100%;
-
-    .subhead {
-      // color: $light-seafoam;
-      color: $dark-blue;
-      font-family: $base-sans-serif;
-      font-size: 1.1em;
-      font-weight: 600;
-      line-height: 1.2;
-      margin-bottom: 2em;
-
-      @include media($banner-bp) {
-        font-size: 2em;
-      }
-    }
-
-    @include media($banner-bp-small) {
-      text-align: right;
-    }
-
-    @include media($banner-bp) {
-      text-align: right;
-    }
   }
 
   a {

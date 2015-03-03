@@ -21,6 +21,11 @@
     line-height: 1.4;
   }
 
+  h1,
+  .undrinkable-logo {
+    margin-top: .5em;
+  }
+
   .block-quote {
     border-top: 2px solid $tribune-yellow;
     border-bottom: 2px solid $tribune-yellow;
