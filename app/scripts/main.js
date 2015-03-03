@@ -14,6 +14,7 @@ $(document).ready(function() {
   $('.main').fitVids();
   $('#slides').slidesjs({
     width: 940,
+    fadeSpeed: 1,
     navigation: true,
     callback: {
       loaded: function() {
@@ -26,7 +27,7 @@ $(document).ready(function() {
         } else {
           $('.slidesjs-container').css('background', 'rgb(255,254,252)');
         }
-        sliderHeight();
+        // sliderHeight();
       }
     }
   });
