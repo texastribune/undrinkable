@@ -84,7 +84,7 @@ module.exports = function (grunt) {
         src: [
           '*.{ico,png,txt,svg}',
           'images/{,*/}*.svg',
-          'styles/fonts/{,*/}*.*'
+          'fonts/{,*/}*.*'
         ]
       },
       compiledHtml: {
