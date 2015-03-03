@@ -19,7 +19,7 @@
     font-weight: 300;
     letter-spacing: .02em;
     line-height: 1;
-    margin: 1em 0;
+    margin: 1.5em 0;
   }
 
   ul {
@@ -48,14 +48,14 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color: #666;
-    display: inline-block;
+    // display: inline-block;
     float: left;
     font-family: FontAwesome;
     font-size: 1.3em;
     font-style: normal;
     font-weight: normal;
     line-height: 1;
-    margin-bottom: .5em;
+    margin: -.1em 0 .5em;
   }
 
   .fa-twitter {
@@ -102,4 +102,10 @@
       font-size: 1em;
     }
   }
+}
+
+img.univision {
+  float: left;
+  margin: -.75em 1em 1em 0;
+  width: 3.75em;
 }
