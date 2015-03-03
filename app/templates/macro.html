@@ -153,13 +153,16 @@
   </section>
 {% endmacro %}
 
-{% macro photo(p, cap, cred, o) %}
+{% macro photo(p, cap, cred) %}
   <div class="photo">
-  {% if o %}
-    <img src="images/photos/{{ p }}">
-  {% else %}
     <img src="../images/photos/{{ p }}">
-  {% endif %}
+    <p class="caption">{{ cap }} Photo by {{ cred }}.</p>
+  </div>
+{% endmacro %}
+
+{% macro photo_overview(p, cap, cred) %}
+  <div class="photo">
+    <img src="images/photos/{{ p }}">
     <p class="caption">{{ cap }} Photo by {{ cred }}.</p>
   </div>
 {% endmacro %}

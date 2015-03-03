@@ -27,10 +27,12 @@ $(document).ready(function() {
         } else {
           $('.slidesjs-container').css('background', 'rgb(255,254,252)');
         }
-        // sliderHeight();
+        sliderHeight();
       }
     }
   });
+
+  sliderHeight();
 
   if(!Modernizr.svg) {
     $('img[src*="svg"]').attr('src', function() {

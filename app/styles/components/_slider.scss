@@ -35,7 +35,8 @@ $slider-bp: new-breakpoint(min-width 500px);
     &.question {
       @include media($slider-bp) {
         margin-bottom: 1em;
-        width: 70%;
+        max-width: 70%;
+        max-height: 400px;
       }
     }
 
