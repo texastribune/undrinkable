@@ -82,8 +82,8 @@ module.exports = function (grunt) {
         cwd: '<%= config.app %>',
         dest: '<%= config.dist %>',
         src: [
-          '*.{ico,png,txt}',
-          'images/{,*/}*.webp',
+          '*.{ico,png,txt,svg}',
+          'images/{,*/}*.svg',
           'styles/fonts/{,*/}*.*'
         ]
       },
