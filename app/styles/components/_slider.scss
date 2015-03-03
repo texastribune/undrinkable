@@ -1,5 +1,9 @@
 $slider-bp: new-breakpoint(min-width 500px);
 
+.slidesjs-container {
+  transition: background .01s linear;
+}
+
 .slider {
   @extend %content-block;
   background: $soft-eggshell;

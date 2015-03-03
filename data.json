@@ -194,7 +194,7 @@
       "Bullets": "<li>Total coliforms are bacteria that are not harmful to humans. Their presence in a treated water supply, however, indicates that dangerous contaminants are also present.<li>",
       "Subtext2": "How does it get into drinking water?",
       "Bullets2": "<li>The presence of coliforms means that treated water was contaminated with sewage or animal waste.</li>",
-      "Graphic": "ecoli-01.svg",
+      "Graphic": "totalcoliform-01.svg",
       "GClass": "icon"
     },
     {
@@ -202,7 +202,7 @@
       "Main": "Total coliforms",
       "Subtext": "What are the potential health consequences?",
       "Bullets": "<li>The contaminants present with coliforms may cause diarrhea, abdominal cramps, nausea and possibly jaundice, but not all infected individuals develop symptoms.</li>",
-      "Graphic": "ecoli-01.svg",
+      "Graphic": "totalcoliform-01.svg",
       "GClass": "icon"
     },
     {
@@ -212,7 +212,7 @@
       "Bullets": "<li>Arsenic is a semi-metal element that is poisonous if ingested in large quantities.</li>",
       "Subtext2": "How does it get into drinking water?",
       "Bullets2": "<li>Because arsenic exists naturally in the ground, it commonly contaminates groundwater and rivers. It can also reach water supplies as a result of industrial and agricultural pollution.</li>",
-      "Graphic": "ecoli-01.svg",
+      "Graphic": "arsenic-01.svg",
       "GClass": "icon"
     },
     {
@@ -220,7 +220,7 @@
       "Main": "Arsenic",
       "Subtext": "What are the potential health consequences?",
       "Bullets": "<li>Longtime ingestion of arsenic can cause thickening and discoloration of the skin, stomach pain, nausea, vomiting, diarrhea, numbness in hands and feet, partial paralysis and blindness. Arsenic has also been linked to cancer of the bladder, lungs, skin, kidney, nasal passages, liver and prostate.</li>",
-      "Graphic": "ecoli-01.svg",
+      "Graphic": "arsenic-01.svg",
       "GClass": "icon"
     },
     {
@@ -230,7 +230,7 @@
       "Bullets": "<li>When disinfectants such as chlorine are added to drinking water to protect against disease-causing contaminants, the disinfectants can react with naturally occurring materials in the water to form potentially dangerous byproducts.</li>",
       "Subtext2": "What are the potential health consequences?",
       "Bullets2": "<li>Long-term exposure to various disinfectant byproducts can lead to liver, kidney or central nervous system problems and an increased risk of cancer.</li>",
-      "Graphic": "ecoli-01.svg",
+      "Graphic": "disinfectant-01.svg",
       "GClass": "icon"
     }
   ],
@@ -257,9 +257,13 @@
     {
       "Slide": 4,
       "Main": "Since Texas started tracking colonia development, there have been minor improvements.",
-      "Subtext": "In 2005, the state began tracking its progress ​​on improving life for colonia residents.",
-      "Subtext2": "In the six most populous border counties...",
-      "Bullets2": "<li>2006: 145,400 of 359,800 residents had water and wastewater services (40 percent)</li>\n<li>2014: 214,200 of 369,500 residents had water and wastewater services (58 percent)</li>"
+      "Subtext": "In 2005, the state began tracking its progress ​​on improving life for colonia residents."
+    },
+    {
+      "Main": "In the six most populous border counties...",
+      "Bullets": "<li>In 2006 &mdash; 145,400 of 359,800 residents had water and wastewater services (40 percent)</li>\n<li>In 2014 &mdash; 2014 214,200 of 369,500 residents had water and wastewater services (58 percent)</li>",
+      "Graphic": "piechart-01.svg",
+      "GClass": "embed"
     },
     {
       "Slide": 5,
