@@ -39,7 +39,7 @@
     {% endif %}
       <div class="menu-block {% if story == 'riograndecity' %}selected{% endif %}">
         <h2 class="place">Rio Grande City</h2>
-        <h3 class="subtitle">Tied to an odious river</h3>
+        <h3 class="subtitle">A Patchwork of Unreliability</h3>
       </div>
     </a>
     {% if sheet.SLUG %}
@@ -91,7 +91,7 @@
   </div>
 {% endmacro %}
 
-{% macro slider(sheet, o) %}
+{% macro slider(sheet) %}
   <section>
     <div class="slider">
       <div id="slides">
@@ -102,13 +102,13 @@
           {% if x.Subtext %}
             <p>{{ x.Subtext }}</p>
           {% endif %}
-          {% if x.Graphic and o %}
+          {% if x.Graphic %}
             <div class="graphic {{ x.GClass }}">
+              {% if sheet == OVERVIEW_SLIDER %}
               <img class="question" src="images/graphics/{{ x.Graphic }}">
-            </div>
-          {% elif x.Graphic %}
-            <div class="graphic {{ x.GClass }}">
+              {% else %}
               <img class="question" src="../images/graphics/{{ x.Graphic }}">
+              {% endif %}
             </div>
           {% endif %}
         </div>
