@@ -6,25 +6,49 @@
         <h3 class="subtitle">What's with the water</h3>
       </div>
     </a>
+    {% if sheet.SLUG %}
     <a href="../vinton">
+    {% elif story == 'vinton' %}
+    <a href="../vinton">
+    {% else %}
+    <a href="../../undrinkable/vinton">
+    {% endif %}
       <div class="menu-block {% if story == 'vinton' %}selected{% endif %}">
         <h2 class="place">Vinton</h2>
         <h3 class="subtitle">Politics thwart a village’s hopes</h3>
       </div>
     </a>
+    {% if sheet.SLUG %}
     <a href="../las-pampas">
+    {% elif story == 'laspampas' %}
+    <a href="../las-pampas">
+    {% else %}
+    <a href="../../undrinkable/las-pampas">
+    {% endif %}
       <div class="menu-block {% if story == 'laspampas' %}selected{% endif %}">
         <h2 class="place">Las Pampas</h2>
         <h3 class="subtitle">A colonia built on broken promises</h3>
       </div>
     </a>
+    {% if sheet.SLUG %}
     <a href="../rio-grande-city">
+    {% elif story == 'riograndecity' %}
+    <a href="../rio-grande-city">
+    {% else %}
+    <a href="../../undrinkable/rio-grande-city">
+    {% endif %}
       <div class="menu-block {% if story == 'riograndecity' %}selected{% endif %}">
         <h2 class="place">Rio Grande City</h2>
         <h3 class="subtitle">Tied to an odious river</h3>
       </div>
     </a>
+    {% if sheet.SLUG %}
     <a href="../rio-bravo-el-cenizo">
+    {% elif story == 'riobravo' %}
+    <a href="../rio-bravo-el-cenizo">
+    {% else %}
+    <a href="../../undrinkable/rio-bravo-el-cenizo">
+    {% endif %}
       <div class="menu-block {% if story == 'riobravo' %}selected{% endif %}">
         <h2 class="place">Rio Bravo/El Cenizo</h2>
         <h3 class="subtitle">Suspended in a tainted solution</h3>
@@ -51,7 +75,11 @@
         <p>{{ sheet.SHARE_1 }}</p>
       </li>
       <li>
-        <img src="/images/Univision-logo.jpg" class="univision">
+      {% if sheet.SLUG %}
+        <img src="../images/Univision-logo.jpg" class="univision">
+      {% else %}
+        <img src="images/Univision-logo.jpg" class="univision">
+      {% endif %}
         <p>{{ sheet.UNIVISION }}</p>
       </li>
     </ul>
