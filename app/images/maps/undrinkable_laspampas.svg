@@ -44,7 +44,6 @@
 		<clipPath id="SVGID_6_">
 			<use xlink:href="#SVGID_5_"  overflow="visible"/>
 		</clipPath>
-		<rect x="-7" y="-8" clip-path="url(#SVGID_6_)" fill="#FFFCF8" width="317.1" height="316"/>
 		<g clip-path="url(#SVGID_6_)">
 			<defs>
 				<rect id="SVGID_7_" x="-24.1" y="-25" width="350" height="350"/>
