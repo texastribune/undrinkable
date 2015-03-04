@@ -1,4 +1,4 @@
-RIO GRANDE CITY — As water kiosks go, Jose Garcia prefers the Watermill Express on the northern edge of town. 
+RIO GRANDE CITY — As water kiosks go, Jos&#233; Garcia prefers the Watermill Express on the northern edge of town. 
 
 He makes multiple trips each week to the brightly colored filling station with several five-gallon tanks in tow. 
 
@@ -114,3 +114,4 @@ And wait.
  
 “All we have to do is just wait till the morning and see if it comes back on,” he says. “It’s a waiting game.”
 
+*Disclosure: Texas A&M University is a corporate sponsor of The Texas Tribune. A complete list of Tribune donors and sponsors can be viewed [here](http://www.texastribune.org/support-us/donors-and-members/).*

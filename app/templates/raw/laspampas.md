@@ -115,3 +115,5 @@ Even the water she hauls may be contaminated, so Barraza purchases gallons of wa
 But her biggest fear is that she won’t be able to make the trip into Presidio as she gets older. 
 
 “I knew there wasn’t running water when I moved here,” Barraza says. “But I was young then. No one gets tired when you’re young.”
+
+*Disclosure: Texas A&M University is a corporate sponsor of The Texas Tribune. A complete list of Tribune donors and sponsors can be viewed [here](http://www.texastribune.org/support-us/donors-and-members/).*

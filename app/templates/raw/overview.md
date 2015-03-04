@@ -5,7 +5,7 @@ Flora Barraza cannot. Neither can José Garcia, nor the cooks at Los Pasteles Ba
 Along the Texas-Mexico border, nearly 90,000 people are believed to still live without running water. An untold number more — likely tens of thousands, but no one is sure — often have running water of such poor quality that they cannot know what poisons or diseases it might carry.
 
 They are mostly low-income Hispanics, some living in isolated pockets or low-grade developments on land nobody else wanted. Poor, powerless and out of sight, they continue to grapple with the illnesses and hardships that come from lacking such a basic necessity.
-
+  
 “Some people have no idea that there’s still third-world conditions in the most powerful country in the world,” says U.S. Rep. Henry Cuellar, a Laredo Democrat whose constituents live in some of the worst conditions.
 
 It is not a new problem. State and national governments launched massive efforts to solve it in the 1980s when the border’s population surged. They created [huge institutions](http://www.becc.org/about-us) to funnel billions of dollars toward [building](http://www.becc.org/our-impact/united-states/texas) treatment plants and pipelines.
@@ -111,3 +111,5 @@ Other elected officials have either passed the buck to someone else or been relu
 At the local level, border communities operate in silos and have failed to find regional solutions to water challenges, said Carlos Acevedo, a senior project manager for the Border Environment Cooperation Commission.
 
 Added Cuellar: “We’re in an environment of dwindling monies from Washington, and to be quite honest, I don’t hear much from Austin on colonias. I think we need a renewed effort on the colonias, both at the state and federal level.”
+
+*Disclosure: The University of Texas at Austin is a corporate sponsor of The Texas Tribune. A complete list of Tribune donors and sponsors can be viewed [here](http://www.texastribune.org/support-us/donors-and-members/).*

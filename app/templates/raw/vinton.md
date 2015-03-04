@@ -46,7 +46,7 @@ While other communities without drinkable water are in rural, isolated areas wit
 
 In 2012, Vinton was ready to do just that: build about 21 miles of pipeline to bring in water from El Paso, and new storage tanks to hold it. Fifteen years of planning, design and applications for tens of millions of dollars in state and federal funds were almost completed. But then everything fell apart. 
 
-In March of that year, three City Council members [voted against](http://www.elpasotimes.com/ci_20149345/vinton-officials-opt-against-water-wastewater-service) connecting to El Paso’s sewer system. Juvencia Rios-Ontiveros, Martha Garcia and Maria Medina had long opposed the project, claiming property taxes and water bills would rise too high. 
+In March of that year, three City Council members [voted against](http://www.elpasotimes.com/ci_20149345/vinton-officials-opt-against-water-wastewater-service) connecting to El Paso’s sewer system. Juvencia Rios-Ontiveros, Martha Garcia and Mar&#237;a Medina had long opposed the project, claiming property taxes and water bills would rise too high. 
 
 A few months later, on the eve of a key deadline to apply for more funds to make the connection, the three women didn’t show up for a council meeting. Without a quorum to vote on submitting the application, Vinton had to abandon all the money. 
 
@@ -54,7 +54,7 @@ A few months later, on the eve of a key deadline to apply for more funds to make
 
 In an interview, Rios-Ontiveros called criticism of her “nothing but lies and innuendos.” Garcia and Medina could not be reached for comment.
 
-Polling showed that more than 80 percent of the town favored the project. And the community was furious. “This deadlock is not only politically unhealthy, but more so is getting to be a physical health concern,” [wrote](http://www.elpasotimes.com/ci_21898342/vinton-water) the El Paso Times in a scathing editorial. “We agree that the citizens of Vinton have a right to clean, running water.”
+Polling showed that more than 80 percent of the town favored the project. And the community was furious. “This deadlock is not only politically unhealthy, but more so is getting to be a physical health concern,” [wrote](http://www.elpasotimes.com/ci_21898342/vinton-water) the *El Paso Times* in a scathing editorial. “We agree that the citizens of Vinton have a right to clean, running water.”
 
 Vitriol against the three council members was so high that two citizens filed a [lawsuit](http://media.cmgdigital.com/shared/news/documents/2012/10/31/VINTON_2.pdf) against them, which ended in a settlement. The state Legislature also stepped in, changing [Texas law](http://www.legis.state.tx.us/BillLookup/History.aspx?LegSess=83R&Bill=HB3015) in 2013 so that incorporated villages like Vinton can recall council members between regular elections. 
 
@@ -117,3 +117,5 @@ Spinning her daughter, Debbie, in her arms in their nearly empty living room, Ad
 “That’s the first thing I told my husband we needed to get,” she says, pointing to the $99 water filter and dispenser sitting in her dining room. The family does not drink tap water, and they use filtered water to cook with and to brush their teeth.
 
 “I don’t want her drinking water that’s going to affect her 10 years from now,” Adame says. “Or maybe even before.”
+
+*Disclosure: The University of Texas at El Paso was a corporate sponsor of The Texas Tribune in 2012. A complete list of Tribune donors and sponsors can be viewed [here](http://www.texastribune.org/support-us/donors-and-members/).*
