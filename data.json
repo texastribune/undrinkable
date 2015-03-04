@@ -261,9 +261,9 @@
     },
     {
       "Main": "In the six most populous border counties...",
-      "Bullets": "<li>In 2006 &mdash; 145,400 of 359,800 residents had water and wastewater services (40 percent)</li>\n<li>In 2014 &mdash; 2014 214,200 of 369,500 residents had water and wastewater services (58 percent)</li>",
+      "Bullets": "<li>In 2006 &mdash; 145,400 of 359,800 residents had water and wastewater services (40 percent)</li>\n<li>In 2014 &mdash; 214,200 of 369,500 residents had water and wastewater services (58 percent)</li>",
       "Graphic": "piechart-01.svg",
-      "GClass": "embed"
+      "GClass": "chart"
     },
     {
       "Slide": 5,
@@ -315,7 +315,9 @@
   "RIOBRAVO_SLIDER": [
     {
       "Slide": "QUESTION",
-      "Main": "Why is money not enough?"
+      "Main": "Why is money not enough?",
+      "Graphic": "moneydrops-01.svg",
+      "GClass": "question"
     },
     {
       "Slide": 1,

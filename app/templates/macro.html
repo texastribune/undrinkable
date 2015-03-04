@@ -23,7 +23,7 @@
     <a href="/undrinkable">
       <div class="menu-block {% if story == 'overview' %}selected{% endif %}">
         <h2 class="place">Overview</h2>
-        <h3 class="subtitle">What's with the water</h3>
+        <h3 class="subtitle">Texas border’s third-world problem</h3>
       </div>
     </a>
     {% if sheet.SLUG %}
@@ -170,11 +170,7 @@
           {% endif %}
           {% if x.Graphic %}
             <div class="graphic {{ x.GClass }}">
-              {% if sheet == OVERVIEW_SLIDER %}
-              <img class="question" src="images/graphics/{{ x.Graphic }}">
-              {% else %}
-              <img class="question" src="../images/graphics/{{ x.Graphic }}">
-              {% endif %}
+              <img src="../images/graphics/{{ x.Graphic }}">
             </div>
           {% endif %}
         </div>
