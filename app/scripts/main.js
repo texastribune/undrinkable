@@ -11,7 +11,6 @@ function sliderHeight() {
 }
 
 $(document).ready(function() {
-
   // Menu
   var $menuButton = $('#menu-button');
   var $menuNav = $('#menu');
@@ -57,6 +56,10 @@ $(document).ready(function() {
     });
   }
 });
+
+$(window).load(function () {
+  sliderHeight();
+})
 
 // Reset heights/positions on window resize
 $(window).resize(function() {

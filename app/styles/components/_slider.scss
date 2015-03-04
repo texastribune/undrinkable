@@ -1,6 +1,7 @@
 $slider-bp: new-breakpoint(min-width 500px);
 
 .slidesjs-container {
+  height: 343px;
   transition: background .01s linear;
 }
 
@@ -36,6 +37,13 @@ $slider-bp: new-breakpoint(min-width 500px);
       margin-bottom: 1em;
       img {
         max-height: 11em;
+      }
+    }
+
+    &.question-money {
+      margin-bottom: 1em;
+      img {
+        height: 7em;
       }
     }
 
