@@ -1,0 +1,20 @@
+{% extends 'app/templates/base_sub.html' %}
+{% import 'app/templates/macro.html' as macro %}
+
+{% block meta_ref %}
+  {{ macro.meta(VINTON) }}
+{% endblock %}
+
+{% block content %}
+
+{{ macro.nav('vinton') }}
+  <div class="story-container">
+    <div class="story-content">
+      {{ macro.header(VINTON) }}
+      <section class="prose">
+        {{ VINTON.FULL_TEXT }}
+      </section>
+    </div>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'app/templates/base_sub.html' %}
+{% import 'app/templates/macro.html' as macro %}
+
+{% block meta_ref %}
+  {{ macro.meta(RIOGRANDE) }}
+{% endblock %}
+
+{% block content %}
+
+{{ macro.nav('riograndecity') }}
+  <div class="story-container">
+    <div class="story-content">
+      {{ macro.header(RIOGRANDE) }}
+      <section class="prose">
+        {{ RIOGRANDE.FULL_TEXT }}
+      </section>
+    </div>
+  </div>
+
+{% endblock %}
