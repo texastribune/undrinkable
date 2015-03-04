@@ -11,6 +11,23 @@ function sliderHeight() {
 }
 
 $(document).ready(function() {
+
+  // Menu
+  var $menuButton = $('#menu-button');
+  var $menuNav = $('#menu');
+
+  $menuButton.on('click', function(e) {
+    e.preventDefault();
+
+    if ($menuNav.hasClass('menu-open')) {
+      $menuButton.removeClass('x');
+    } else {
+      $menuButton.addClass('x');
+    }
+
+    $menuNav.toggleClass('menu-open');
+  });
+
   $('.main').fitVids();
   $('#slides').slidesjs({
     width: 940,
@@ -32,8 +49,6 @@ $(document).ready(function() {
       }
     }
   });
-
-  sliderHeight();
 
   if(!Modernizr.svg) {
     $('img[src*="svg"]').attr('src', function() {
