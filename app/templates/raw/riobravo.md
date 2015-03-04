@@ -4,9 +4,9 @@ The Rio Bravo Water Treatment Plant opened in 2006 as a state-of-the-art technol
 
 But nearly a decade later, the 8,000 residents of Rio Bravo and neighboring El Cenizo mostly still buy their drinking and cooking water from brightly colored kiosks around town. Elderly patrons at the senior care center run by Rio Bravo’s mayor drink bottled water and use the caps as lotería markers.
 
-“Who here would be willing to drink some tap water?” Dr. Francisco Pena asked the folks at the care center last fall, before he was elected mayor. “Who is willing to drink water that comes from your public water treatment plant?” From a crowd of 30 people, there was silence. 
+“Who here would be willing to drink some tap water?” Dr. Francisco Pe&#241;a asked the folks at the care center last fall, before he was elected mayor. “Who is willing to drink water that comes from your public water treatment plant?” From a crowd of 30 people, there was silence. 
 
-The Rio Bravo plant has been fraught with problems since it opened. The sophisticated system often doesn’t work, or operators don’t know how to work it. State inspectors have repeatedly cited the plant for pumping foul water out to its customers. Seven current and former employees have been indicted for falsifying water quality records sent to the state.
+The Rio Bravo plant has been fraught with problems since it opened. The sophisticated system often doesn’t work, or operators don’t know how to work it. State inspectors have repeatedly cited the plant for pumping foul water out to its customers. Eight current and former employees have been indicted for falsifying water quality records sent to the state.
 
 And the locals still cannot trust what comes out of their faucets.
 
@@ -38,7 +38,7 @@ Just months after the plant’s 2006 ribbon-cutting, agency investigator Elsa Hu
 
 A year later, Hull noticed something strange about the way workers at the plant were filling out monthly water quality reports they were required to submit to the TCEQ. At times, the data Webb County sent to the state was different from what Hull saw the operators write in their daily logs. 
 
-Officials now believe what Hull saw was no accident. In October, the Webb County district attorney’s office indicted seven current and former plant employees for allegedly falsifying the records, including Johnny Amaya, the former water utilities director and a longtime Laredo politician.
+Officials now believe what Hull saw was no accident. In October, the Webb County district attorney’s office indicted eight current and former plant employees for allegedly falsifying the records, including Johnny Amaya, the former water utilities director and a longtime Laredo politician.
 
 Amaya has pleaded not guilty, and a trial is expected no earlier than March, says his attorney, Fausto Sosa. 
 
