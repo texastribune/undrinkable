@@ -24,13 +24,13 @@ Almost a third of the town reported frequent skin problems, which researchers sa
 
 Humans process arsenic “pretty quickly,” and Bill Hargrove, a professor and lead investigator of the Vinton study, says he worries especially about the long-term effects on children and the elderly. Ingesting [arsenic](http://www.epa.gov/ogwdw/arsenic.html) can cause sore throats, nausea and vomiting, but one of the gravest concerns is an increased risk of cancer, according to the federal Centers for Disease Control and Prevention.
 
-That has become Arturo Gonzalez’s most acute worry. After moving to town more than 13 years ago, Gonzalez, an ironworker who lives in a trailer with his 12-year-old son, drank the tap water without questioning it. 
+That has become Arturo Gonz&#225;lez’s most acute worry. After moving to town more than 13 years ago, Gonz&#225;lez, an ironworker who lives in a trailer with his 12-year-old son, drank the tap water without questioning it. 
 
 That stopped after a university researcher knocked on his door. 
 
-“We don’t use it anymore for drinking or cooking or nothing,” Gonzalez says. “UTEP said it’ll give you cancer if you drink the water.”
+“We don’t use it anymore for drinking or cooking or nothing,” Gonz&#225;lez says. “UTEP said it’ll give you cancer if you drink the water.”
 
-Gonzalez goes to the store twice a month to buy several five-gallon drums of filtered water. He still pays $45 a month for running water, and says he’d gladly pay more to make it clean and safe. 
+Gonz&#225;lez goes to the store twice a month to buy several five-gallon drums of filtered water. He still pays $45 a month for running water, and says he’d gladly pay more to make it clean and safe. 
 
 That’s how many others feel in this town. Vinton’s population has doubled since 1990, but the town hasn’t shared in the economic development that has seen shiny malls and department stores spring up just outside its borders. 
 
@@ -74,7 +74,7 @@ True, Praino acknowledges, and it’s unknown how much that will cost. But she a
 
 Some of Vinton’s private suppliers, including the one Praino uses, already deal with serious water contamination issues. 
 
-Hillside Water Works — which also serves Gonzalez, the ironworker — pulls groundwater that is naturally tainted with arsenic. For the past few years, state and federal regulators have [cited](http://dww.tceq.texas.gov/DWW/JSP/Violations.jsp?tinwsys_is_number=1516&tinwsys_st_code=TX&wsnumber=TX0710050%20%20%20&DWWState=TX) and fined Hillside for selling water with dangerously high arsenic levels and failing to tell customers about the health risks of drinking it. Sandra Richter, the owner of Hillside, did not respond to several phone calls seeking comment. But Praino says she has been told it would easily cost Hillside hundreds of thousands of dollars to properly remove arsenic from the drinking water it produces. 
+Hillside Water Works — which also serves Gonz&#225;lez, the ironworker — pulls groundwater that is naturally tainted with arsenic. For the past few years, state and federal regulators have [cited](http://dww.tceq.texas.gov/DWW/JSP/Violations.jsp?tinwsys_is_number=1516&tinwsys_st_code=TX&wsnumber=TX0710050%20%20%20&DWWState=TX) and fined Hillside for selling water with dangerously high arsenic levels and failing to tell customers about the health risks of drinking it. Sandra Richter, the owner of Hillside, did not respond to several phone calls seeking comment. But Praino says she has been told it would easily cost Hillside hundreds of thousands of dollars to properly remove arsenic from the drinking water it produces. 
 
 And those cost issues wouldn’t completely go away simply by connecting to El Paso city water. At least $40 million will be needed for the [water and sewer projects](http://www.vintontx.govoffice2.com/vertical/sites/%7B9571B011-F39E-4B6F-A49E-0B16AB6056A3%7D/uploads/March-_www_report.pdf) — millions more than would have been needed just a few years ago, as construction costs have skyrocketed — and not all of that will be paid for by grants. 
 
