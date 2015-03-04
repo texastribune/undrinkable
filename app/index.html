@@ -9,7 +9,9 @@
   <div class="story-container">
     <div class="story-content">
       {{ macro.header(OVERVIEW) }}
+      <div class="prose">
       {{ macro.photo_overview(OVERVIEW.PHOTO_1, OVERVIEW.CAPTION_1, OVERVIEW.CREDIT_1) }}
+      </div>
       {{ macro.sharelines(OVERVIEW) }}
 
       <!-- STORY CONTENT! -->
@@ -41,7 +43,7 @@
         <hr class="yellow">
       </section>
         <!-- Slider -->
-        {{ macro.slider(OVERVIEW_SLIDER, 0) }}
+        {{ macro.slideroverview(OVERVIEW_SLIDER) }}
       <section class="prose">
         <hr class="yellow">
         <h3 id="an-unmeasured-toll-on-health" target="_blank">An Unmeasured Toll on Health</h3>
@@ -61,7 +63,7 @@
         <p>“Ensuring clean water is a cost-effective investment,” Zaffirini said. “It’s expensive, but it’s less expensive than dealing with the health consequences.”</p>
 
         <!-- Photo -->
-        {{ macro.photo_overview(OVERVIEW.PHOTO_1, OVERVIEW.CAPTION_1, OVERVIEW.CREDIT_1) }}
+        {{ macro.photo_overview(OVERVIEW.PHOTO_2, OVERVIEW.CAPTION_2, OVERVIEW.CREDIT_2) }}
 
         <h3 id="money-to-help-is-drying-up" target="_blank">Money to Help is Drying Up</h3>
         <p>Institutions run by Texas, the U.S. and Mexico have for years struggled to provide border communities with clean drinking water. And for hundreds of those communities, it has <a href="http://www.becc.org/our-impact/united-states/texas" target="_blank">worked</a>, officials say. </p>

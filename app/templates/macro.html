@@ -94,6 +94,47 @@
   </div>
 {% endmacro %}
 
+{% macro slideroverview(sheet) %}
+  <section>
+    <div class="slider">
+      <div id="slides">
+      {% for x in sheet %}
+        {% if x.Slide == 'QUESTION' %}
+        <div class="slide-question">
+          <h2>{{ x.Main }}</h2>
+        </div>
+        {% else %}
+          <div>
+            {% if x.Main %}
+            <header class="slide-header">
+              <h3>{{ x.Main }}</h3>
+            </header>
+            {% endif %}
+            <div class="slide-text">
+            {% if x.Subtext %}
+              <p>{{ x.Subtext }}</p>
+            {% endif %}
+            {% if x.Bullets %}
+              <ul>
+              {{ x.Bullets }}
+              </ul>
+            {% endif %}
+            {% if x.Graphic %}
+              <div class="graphic {{ x.GClass }}">
+                <img src="images/graphics/{{ x.Graphic }}">
+              </div>
+            {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-circle-left"></i></a>
+        <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-circle-right"></i></a>
+        </div>
+    </div>
+  </section>
+{% endmacro %}
+
 {% macro slider(sheet) %}
   <section>
     <div class="slider">
@@ -162,14 +203,14 @@
 {% endmacro %}
 
 {% macro photo(p, cap, cred) %}
-  <div class="prose photo">
+  <div class="photo">
     <img src="../images/photos/{{ p }}">
     <p class="caption">{{ cap }} Photo by {{ cred }}.</p>
   </div>
 {% endmacro %}
 
 {% macro photo_overview(p, cap, cred) %}
-  <div class="prose photo">
+  <div class="photo">
     <img src="images/photos/{{ p }}">
     <p class="caption">{{ cap }} Photo by {{ cred }}.</p>
   </div>
