@@ -31,6 +31,7 @@ $(document).ready(function() {
   $('.main').fitVids();
   $('#slides').slidesjs({
     width: 940,
+    height: 540,
     fadeSpeed: 1,
     navigation: true,
     callback: {
