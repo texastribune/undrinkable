@@ -2,3 +2,72 @@ body {
   background: $soft-eggshell;
 }
 
+.button {
+  @include button($tribune-yellow, $hover-yellow, $yellow-highlight);
+  border: $tribune-yellow;
+  border-bottom: 4px solid $yellow-highlight;
+  border-radius: 4px;
+  color: $yellow-text;
+  display: inherit;
+  font-family: $base-sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 80%;
+
+  &:hover,
+  &:active,
+  &:hover:not(:disabled) {
+    background-color: $hover-yellow;
+    color: rgb(79, 64, 21);
+    padding-bottom: .835em;
+  }
+
+}
+
+.newsletter-signup {
+  @include clearfix;
+
+  margin-bottom: 1.5em;
+  input[type=email] {
+    @include span-columns(12);
+    width: 100%;
+    margin: 0 0 1em;
+    padding: .5em;
+    @include media($large) {
+      @include span-columns(6);
+    }
+    @include media($medium) {
+      @include span-columns(6);
+    }
+
+  }
+
+  .button {
+    @include span-columns(12);
+    // padding: .6em;
+    @include media($large) {
+      @include span-columns(3);
+    }
+    @include media($medium) {
+      @include span-columns(3);
+    }
+    // &:hover {
+    //   padding: .7em;
+    // }
+  }
+}
+
+.sub-section-header {
+  color: $li-black;
+  font-family: $base-serif;
+  font-size: 0.95em;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: .75em 0;
+  text-align: left;
+}
