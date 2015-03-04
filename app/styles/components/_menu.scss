@@ -70,6 +70,7 @@ $menu-bp-large: new-breakpoint(min-width 1158px);
     &:active,
     &:hover {
       color: $theme-eggshell;
+      text-decoration: none;
     }
   }
 
