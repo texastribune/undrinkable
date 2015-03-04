@@ -24,10 +24,11 @@ $(document).ready(function() {
       complete: function(number) {
         if(number === 1) {
           $('.slidesjs-container').css('background', 'rgb(23,79,101)');
+          sliderHeight();
         } else {
           $('.slidesjs-container').css('background', 'rgb(255,254,252)');
+          sliderHeight();
         }
-        sliderHeight();
       }
     }
   });

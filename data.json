@@ -315,13 +315,11 @@
   "RIOBRAVO_SLIDER": [
     {
       "Slide": "QUESTION",
-      "Main": "Why is money not enough?",
-      "Graphic": "moneydrops-01.svg"
+      "Main": "Why is money not enough?"
     },
     {
       "Slide": 1,
-      "Main": "A lot of money has been spent on border water projects.",
-      "Subtext": "Over the last three decades, at least $1.8 billion has been spent on water and wastewater projects. ​Half ​was grant money, while the rest was loans.",
+      "Main": "Over the last three decades, at least $1.8 billion has been spent on water and wastewater projects. ​Half ​was grant money, while the rest was loans.",
       "Graphic": "barchart-01-01.svg",
       "GClass": "chart"
     },
