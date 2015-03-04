@@ -46,6 +46,11 @@ body {
 
   }
 
+  hr {
+    height: 1px;
+    margin-bottom: 1em;
+  }
+
   .button {
     @include span-columns(12);
     // padding: .6em;
@@ -58,6 +63,10 @@ body {
     // &:hover {
     //   padding: .7em;
     // }
+  }
+
+  #mc_embed_signup {
+    @include clearfix;
   }
 }
 
