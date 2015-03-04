@@ -131,9 +131,6 @@
             </header>
             {% endif %}
             <div class="slide-text">
-            {% if x.Subtext %}
-              <p>{{ x.Subtext }}</p>
-            {% endif %}
             {% if x.Bullets %}
               <ul>
               {{ x.Bullets }}
@@ -145,6 +142,11 @@
               </div>
             {% endif %}
             </div>
+            {% if x.Subtext %}
+            <div class="prose">
+              <p>{{ x.Subtext }}</p>
+             </div>
+            {% endif %}
           </div>
         {% endif %}
       {% endfor %}
