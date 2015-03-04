@@ -158,7 +158,7 @@
     {
       "Slide": 4,
       "Main": "But it’s likely that tens of thousands of Texans have running water that might not be fit to drink. The Tribune visited four communities, home to at least 24,059 Texans, whose water is suspect.",
-      "Bullets": "<li>Rio Grande City: 14,021</li>\n<li>Rio Bravo/El Cenizo: 8,067</li>\n<li>Vinton: 1,971</li>\n<li>Las Pampas: Unknown (estimated 30 families)</li>"
+      "Bullets": "<li class=\"slide-text\">Rio Grande City: 14,021</li>\n<li class=\"slide-text\">Rio Bravo/El Cenizo: 8,067</li>\n<li class=\"slide-text\">Vinton: 1,971</li>\n<li class=\"slide-text\">Las Pampas: Unknown (estimated 30 families)</li>"
     }
   ],
   "VINTON_SLIDER": [
@@ -182,7 +182,7 @@
     {
       "Slide": 2,
       "Main": "E.coli",
-      "Subtext": "What are the potential health consequences? Most strains of E. coli are harmless, but some can cause infections leading to:",
+      "Subtext": "What are the potential health consequences?",
       "Bullets": "<li>Most strains of E. coli are harmless, but some can cause infections leading to diarrhea, vomiting, stomach cramps, mild fever, nausea and headaches.</li><li>While most recover from these symptoms within a week, some people — particularly young children and older adults — may develop a life-threatening form of kidney failure called hemolytic uremic syndrome.</li>",
       "Graphic": "ecoli-01.svg",
       "GClass": "icon"
@@ -191,7 +191,7 @@
       "Slide": 3,
       "Main": "Total coliforms",
       "Subtext": "What is it?",
-      "Bullets": "<li>Total coliforms are bacteria that are not harmful to humans. Their presence in a treated water supply, however, indicates that dangerous contaminants are also present.<li>",
+      "Bullets": "<li>Total coliforms are bacteria that are not harmful to humans. Their presence in a treated water supply, however, indicates that dangerous contaminants are also present.</li>",
       "Subtext2": "How does it get into drinking water?",
       "Bullets2": "<li>The presence of coliforms means that treated water was contaminated with sewage or animal waste.</li>",
       "Graphic": "totalcoliform-01.svg",

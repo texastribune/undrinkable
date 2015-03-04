@@ -1,4 +1,4 @@
-$menu-bp: new-breakpoint(min-width 787px max-width 1157px);
+$menu-bp: new-breakpoint(min-width 750px max-width 1157px);
 $menu-bp-large: new-breakpoint(min-width 1158px);
 
 .nav {
@@ -28,13 +28,13 @@ $menu-bp-large: new-breakpoint(min-width 1158px);
 
     @include media($menu-bp) {
       float: left;
-      min-height: 7em;
+      min-height: 6.5em;
       width: 20%;
     }
 
     @include media($menu-bp-large) {
       float: left;
-      min-height: 5em;
+      min-height: 5.3em;
       width: 20%;
     }
 
@@ -50,11 +50,8 @@ $menu-bp-large: new-breakpoint(min-width 1158px);
   .place {
     font-size: .9em;
     font-weight: 600;
-    margin-bottom: .5em;
-
-    @include media($menu-bp) {
-      font-size: 1.25em;
-    }
+    margin: .5em 0;
+    text-transform: uppercase;
   }
 
   .subtitle {
@@ -81,6 +78,7 @@ $menu-bp-large: new-breakpoint(min-width 1158px);
   @include media($menu-bp) {
     display: block;
   }
+
   @include media($menu-bp-large) {
     display: block;
   }
