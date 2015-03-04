@@ -1,6 +1,10 @@
 {% extends 'app/templates/base.html' %}
 {% import 'app/templates/macro.html' as macro %}
 
+{% block meta_ref %}
+  {{ macro.meta(OVERVIEW) }}
+{% endblock %}
+
 {% block content %}
 
 {{ macro.nav('overview') }}

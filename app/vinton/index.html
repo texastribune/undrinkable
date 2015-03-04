@@ -1,6 +1,10 @@
 {% extends 'app/templates/base_sub.html' %}
 {% import 'app/templates/macro.html' as macro %}
 
+{% block meta_ref %}
+  {{ macro.meta(VINTON) }}
+{% endblock %}
+
 {% block content %}
 
 <!-- Static navigation bar -->
