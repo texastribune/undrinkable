@@ -14,11 +14,11 @@ But many people have been left behind. Whether rooted in sloppy development, pol
 
 Nestled in the mountains of West Texas near Big Bend State Park, the small community of Las Pampas is so remote that it has never been worth the cost to run pipes to just a few dozen homes. Residents are left to haul their water from miles away. 
 
-In Rio Bravo and El Cenizo, neighboring border towns a few miles south of Laredo, a brand-new water treatment plant was supposed to provide nearly 10,000 people with clean drinking water. But local leaders never mustered the political will or dollars necessary to run it properly, and last year seven workers were indicted for allegedly faking water quality reports.
+In Rio Bravo and El Cenizo, neighboring border towns a few miles south of Laredo, a brand-new water treatment plant was supposed to provide nearly 10,000 people with clean drinking water. But local leaders never mustered the political will or dollars necessary to run it properly, and last year eight workers were indicted for allegedly faking water quality reports.
 
 On the dry banks of the Rio Grande in far West Texas, many in the village of Vinton have hoped for decades to give up contaminated groundwater wells and pipe in clean water from big-city neighbor El Paso. But local political infighting got in the way. 
 
-And in the Rio Grande Valley, a new water plant should have delivered clean drinking water for 14,000 people in Rio Grande City. But a tangled web of privately run corporations still serves much of the city.
+And in the Rio Grande Valley, a new water plant should have delivered clean drinking water for 14,000 people in Rio Grande City. But a tangled web of locally owned corporations still serves much of the city.
 
 From poorly treated water to no running water at all, concerns about the damage being inflicted on public health are grave. The burdensome lifestyles thrust upon these four communities and others along the border are emblematic of a widespread indignity: Despite the state’s development and economic progress, some Texans hold a more tenuous grasp on a civilized life. 
 
