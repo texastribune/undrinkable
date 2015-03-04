@@ -1,22 +1,26 @@
-$banner-bp: new-breakpoint(max-width 480px);
+$masthead-bp: new-breakpoint(min-width 787px);
 
 .masthead .branding {
   color: $white;
   font-family: $base-sans-serif;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   padding: .35em;
-
-  span {
-    font-size: .8em;
-    margin: 0 .5em;
-    padding-bottom: .5em;
-  }
 
   .trib-logo {
     display: inline-block;
     max-height: 1.2em;
-    margin-top: .25em;
+    margin-top: .5em;
+    max-width: 65%;
   }
 
+  @include media($masthead-bp) {
+    text-align: center;
+
+    .trib-logo {
+      display: inline-block;
+      max-height: 1.2em;
+      margin-top: .25em;
+    }
+  }
 }

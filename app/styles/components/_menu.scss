@@ -85,33 +85,6 @@ $menu-bp-large: new-breakpoint(min-width 1158px);
   }
 }
 
-.menu-button {
-  background-color: $bodytext-black;
-  border: 0;
-  float: right;
-  font-size: 1.375em;
-  line-height: 0;
-  padding: .375em .75em;
-  text-align: center;
-
-  @include media($menu-bp) {
-    display: none; // don't need the menu button in larger view
-  }
-  @include media($menu-bp-large) {
-    display: none; // don't need the menu button in larger view
-  }
-
-  .fa {
-    margin: 0;
-    padding: 0;
-    transition: transform 200ms ease-in-out;
-  }
-
-  // .fa-times {
-  //   transform: rotate(180deg);
-  // }
-}
-
 .menu-icon {
   display: inline-block;
   float: right;
@@ -121,7 +94,7 @@ $menu-bp-large: new-breakpoint(min-width 1158px);
   width: 1.25em;
 
   span {
-    background-color: #ccc;
+    background-color: $white;
     display: block;
     height: .2em;
     margin: 0 auto;
@@ -132,7 +105,7 @@ $menu-bp-large: new-breakpoint(min-width 1158px);
 
     &:before,
     &:after {
-      background-color: #ccc;
+      background-color: $white;
       content: '';
       display: block;
       height: .2em;
@@ -151,10 +124,18 @@ $menu-bp-large: new-breakpoint(min-width 1158px);
       margin-top: .5em;
     }
   }
+
+  @include media($menu-bp) {
+    display: none;
+  }
+
+  @include media($menu-bp-large) {
+    display: none;
+  }
 }
 
 .x span {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(0, 0, 0);
   transition-delay: .2s;
 
   &:before {
@@ -167,13 +148,5 @@ $menu-bp-large: new-breakpoint(min-width 1158px);
     margin-top: 0;
     transform: rotate(-45deg);
     transition-delay: 0, .2s;
-  }
-}
-
-span.menu-hide {
-  display: none;
-
-  @include media($banner-bp) {
-    display: inline-block;
   }
 }
