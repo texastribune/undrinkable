@@ -4,9 +4,9 @@
   <meta property="og:description" content="{{ sheet.SHARE_1 }}">
   <meta property="og:title" content="Undrinkable: {{ sheet.SUBTITLE }}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://apps.texastribune.org/undrinkable/{{ sheet.SLUG }}">
+  <meta property="og:url" content="http://apps.texastribune.org/undrinkable/">
   <meta property="og:redirect_uri" content="//s3.amazonaws.com/apps.texastribune.org/undrinkable/{{ sheet.SLUG }}">
-  <meta property="og:image" content="//s3.amazonaws.com/static.texastribune.org/media/undrinkable/TT-Undrinkable-{{ sheet.SLUG }}-FB-share-img.jpg">
+  <meta property="og:image" content="http://s3.amazonaws.com/static.texastribune.org/media/undrinkable/TT-Undrinkable-{{ sheet.SLUG }}-FB-share-img.jpg">
 
 <!-- Twitter settings -->
   <meta name="twitter:card" value="summary_large_image">
@@ -96,7 +96,7 @@
         <a href="https://twitter.com/intent/tweet?text={{ sheet.SHARE_1 | urlencode }}%20{{ sheet.SHORT_URL | urlencode }}%20&via=texastribune" title="share on Twitter" class="social-share" target="_blank">
         <i class="fa fa-twitter"></i>
         </a>
-        <a href="https://www.facebook.com/dialog/share?app_id=154122474650943&display=popup&href=http%3A%2F%2Fapps.texastribune.org%2Fundrinkable%2F{{ sheet.SLUG }}&redirect_uri=http%3A%2F%2Fapps.texastribune.org%2Fundrinkable%2F" title="share on Facebook" class="social-share" target="_blank">
+        <a href="https://www.facebook.com/dialog/share?app_id=154122474650943&display=popup&href={{ sheet.SHORT_URL }}&redirect_uri=http%3A%2F%2Fapps.texastribune.org%2Fundrinkable%2F{{ sheet.SLUG }}" title="share on Facebook" class="social-share" target="_blank">
         <i class="fa fa-facebook"></i>
         </a>
         <p>{{ sheet.SHARE_1 }}</p>
