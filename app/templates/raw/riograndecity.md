@@ -86,7 +86,7 @@ But that hasn’t helped residents served by other providers, including Union Wa
 
 Students at the neighborhood elementary school, La Union, were bused to a school serviced by a different water company so they could use the bathrooms. Eventually, they were sent home. 
 
-“We just turned on the faucet and there was no water,” says Brenda Pena, a 29-year-old mother of two who lives with her husband in the part of town serviced by Union. “We can’t ask the neighbors because they don’t have water either.” The company told her that even once water service returned, residents were to boil their water for a few days before drinking it, she says.
+“We just turned on the faucet and there was no water,” says Brenda Pe&#241;a, a 29-year-old mother of two who lives with her husband in the part of town serviced by Union. “We can’t ask the neighbors because they don’t have water either.” The company told her that even once water service returned, residents were to boil their water for a few days before drinking it, she says.
 
 Gaytan says changes in weather were the likely culprit. “That causes the pipes to move, and as they move, they crack,” she says. 
 
