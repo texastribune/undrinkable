@@ -153,7 +153,9 @@
   "OVERVIEW_SLIDER": [
     {
       "Slide": "QUESTION",
-      "Main": "How many Texans don’t have drinkable water?"
+      "Main": "How many Texans don’t have drinkable water?",
+      "Graphic": "water-jugs.svg",
+      "GClass": "question"
     },
     {
       "Slide": 1,
@@ -164,7 +166,9 @@
     },
     {
       "Slide": 2,
-      "Main": "Most Texans without running water live in colonias, unincorporated communities that don’t have sewer service or paved roads. The state keeps tabs on six border counties, where more than 10 percent of colonia residents — 38,000 people — don’t have running water."
+      "Main": "Most Texans without running water live in colonias, unincorporated communities that don’t have sewer service or paved roads. The state keeps tabs on six border counties, where more than 10 percent of colonia residents — 38,000 people — don’t have running water.",
+      "Graphic": "6-counties.svg",
+      "GClass": "embed"
     },
     {
       "Slide": 3,
@@ -254,17 +258,23 @@
   "LASPAMPAS_SLIDER": [
     {
       "Slide": "QUESTION",
-      "Main": "Why are there still colonias?"
+      "Main": "Why are there still colonias?",
+      "Graphic": "colonias.svg",
+      "GClass": "question"
     },
     {
       "Slide": 1,
       "Main": "Why are there colonias along the border?",
-      "Subtext": "In the 1950s, cagey real estate developers started to sell cheap tracts of low-grade land in unincorporated areas mostly to poor Hispanic migrants, who bought the land despite precarious living conditions."
+      "Subtext": "In the 1950s, cagey real estate developers started to sell cheap tracts of low-grade land in unincorporated areas mostly to poor Hispanic migrants, who bought the land despite precarious living conditions.",
+      "Graphic": "calendar.svg",
+      "GClass": "embed"
     },
     {
       "Slide": 2,
       "Main": "Promises never fulfilled",
-      "Subtext": "Colonia residents have waited years — sometimes decades — for the water and sewer service developers falsely promised. Many do not have the means to pack up and leave."
+      "Subtext": "Colonia residents have waited years — sometimes decades — for the water and sewer service developers falsely promised. Many do not have the means to pack up and leave.",
+      "Graphic": "gavel.svg",
+      "GClass": "embed"
     },
     {
       "Slide": 3,
@@ -274,7 +284,9 @@
     {
       "Slide": 4,
       "Main": "Since Texas started tracking colonia development, there have been minor improvements.",
-      "Subtext": "In 2005, the state began tracking its progress ​​on improving life for colonia residents."
+      "Subtext": "In 2005, the state began tracking its progress ​​on improving life for colonia residents.",
+      "Graphic": "checked-clipboard.svg",
+      "GClass": "embed"
     },
     {
       "Main": "In the six most populous border counties...",
@@ -290,7 +302,9 @@
     {
       "Slide": 6,
       "Main": "For colonias still seeking help, funding is running dry.",
-      "Subtext": "A billion dollars in grants have been spent since 1989 to improve services in colonias, but there is very little money left. Communities seeking help must borrow money and pay it back, which many cannot afford to do."
+      "Subtext": "A billion dollars in grants have been spent since 1989 to improve services in colonias, but there is very little money left. Communities seeking help must borrow money and pay it back, which many cannot afford to do.",
+      "Graphic": "money-stack.svg",
+      "GClass": "embed"
     }
   ],
   "RIOGRANDE_SLIDER": [
@@ -302,7 +316,9 @@
     {
       "Slide": 1,
       "Main": "Water supply corporations are nonprofit cooperatives formed by residents who need a water supply.  ",
-      "Subtext": "That means they’re owned by their customers who, like stockholders, elect a governing board to hire workers and run the operation. "
+      "Subtext": "That means they’re owned by their customers who, like stockholders, elect a governing board to hire workers and run the operation. ",
+      "Graphic": "community.svg",
+      "GClass": "embed"
     },
     {
       "Slide": 2,
@@ -317,7 +333,9 @@
     {
       "Slide": 4,
       "Main": "In some cases, that means water is more expensive than it needs to be, and it's harder to maintain operations and facilities. ",
-      "Subtext": "Unlike cities, water supply corporations don't collect taxes. Their operations are funded only by water rates. That means they can't subsidize water for low-income areas or easily raise extra money to cover large costs, like renovations or improvements. "
+      "Subtext": "Unlike cities, water supply corporations don't collect taxes. Their operations are funded only by water rates. That means they can't subsidize water for low-income areas or easily raise extra money to cover large costs, like renovations or improvements. ",
+      "Graphic": "open-faucet.svg",
+      "GClass": "icon"
     },
     {
       "Slide": 5,
@@ -341,7 +359,9 @@
     {
       "Slide": 2,
       "Main": "That money has accomplished a lot.",
-      "Subtext": "There's no comprehensive list, but hundreds of communities in Texas now have water treatment plants, pipelines and storage tanks."
+      "Subtext": "There's no comprehensive list, but hundreds of communities in Texas now have water treatment plants, pipelines and storage tanks.",
+      "Graphic": "pipes.svg",
+      "GClass": "embed"
     },
     {
       "Slide": 3,
@@ -356,7 +376,9 @@
     {
       "Slide": 5,
       "Main": "Regulators lack the power to make sure problems are fixed.",
-      "Subtext": "Regulators can issue citations and impose fines when they see problems, but often they're not looking and their impact is only temporary."
+      "Subtext": "Regulators can issue citations and impose fines when they see problems, but often they're not looking and their impact is only temporary.",
+      "Graphic": "search-document.svg",
+      "GClass": "embed"
     }
   ]
 }
