@@ -265,21 +265,21 @@
     {
       "Slide": 1,
       "Main": "Why are there colonias along the border?",
-      "Subtext": "In the 1950s, cagey real estate developers started to sell cheap tracts of low-grade land in unincorporated areas mostly to poor Hispanic migrants, who bought the land despite precarious living conditions.",
-      "Graphic": "calendar.svg",
-      "GClass": "embed"
+      "Subtext": "In the 1950s, cagey real estate developers started to sell cheap tracts of low-grade land in unincorporated areas mostly to poor Hispanic migrants, who bought the land despite precarious living conditions."
     },
     {
       "Slide": 2,
       "Main": "Promises never fulfilled",
       "Subtext": "Colonia residents have waited years — sometimes decades — for the water and sewer service developers falsely promised. Many do not have the means to pack up and leave.",
-      "Graphic": "gavel.svg",
+      "Graphic": "calendar.svg",
       "GClass": "embed"
     },
     {
       "Slide": 3,
       "Main": "In 1989, Texas began passing legislation to protect colonia residents.",
-      "Subtext": "Multiple laws were supposed to improve colonia conditions. Developers can't sell houses without water service. Exploitative housing contracts are illegal. And the attorney general can sue developers to bring colonias up to code. "
+      "Subtext": "Multiple laws were supposed to improve colonia conditions. Developers can't sell houses without water service. Exploitative housing contracts are illegal. And the attorney general can sue developers to bring colonias up to code. ",
+      "Graphic": "gavel.svg",
+      "GClass": "embed"
     },
     {
       "Slide": 4,
