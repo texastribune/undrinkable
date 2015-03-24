@@ -27,7 +27,7 @@ $(document).ready(function() {
     $menuNav.toggleClass('menu-open');
   });
 
-  $('.main').fitVids();
+  $('.media').fitVids();
   $('#slides').slidesjs({
     width: 940,
     height: 540,
